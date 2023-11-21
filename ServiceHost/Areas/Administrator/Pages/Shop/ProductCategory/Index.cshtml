@@ -1,0 +1,76 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Shop.ProductCategory.IndexModel
+@{
+    ViewData["Title"] = "دسته بندی محصولات";
+}
+
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <a class="btn btn-primary text-white float-left" href="#showmodal=@Url.Page("./Index","Create")">ایجاد دسته بندی محصولات <i class="zmdi zmdi-plus"></i></a>
+            <div class="card">
+                <div class="body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                            <thead>
+                                <tr>
+                                    <th>شناسه</th>
+                                    <th>عکس</th>
+                                    <th>نام</th>
+                                    <th>تعداد محصول</th>
+                                    <th>تاریخ ایجاد</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>شناسه</th>
+                                    <th>عکس</th>
+                                    <th>نام</th>
+                                    <th>تعداد محصول</th>
+                                    <th>تاریخ ایجاد</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                @foreach (var item in Model.ProductCategoryList)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>
+                                            <img src="@item.Picture" style="width: 60px; height: 60px" />
+                                        </td>
+                                        <td>@item.Name</td>
+                                        <td>@item.ProductCount</td>
+                                        <td>@item.CreateDate</td>
+                                        <td>
+                                            <a class="btn btn-warning btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
+                                                ویرایش
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Css {
+    <link rel="stylesheet" href="~/AdminTheme/assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css">
+}
+
+@section Script{
+    <!-- Jquery DataTable Plugin Js -->
+    <script src="~/AdminTheme/assets/bundles/datatablescripts.bundle.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.flash.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.html5.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.print.min.js"></script>
+    <script src="~/AdminTheme/assets/js/pages/tables/jquery-datatable.js"></script>
+}
