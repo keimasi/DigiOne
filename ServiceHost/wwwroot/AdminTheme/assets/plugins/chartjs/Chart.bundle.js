@@ -6247,7 +6247,7 @@ if (typeof window !== 'undefined') {
  * @namespace Chart.Legend
  * @deprecated since version 2.1.5
  * @todo remove at version 3
- * @private
+ * @
  */
 Chart.Legend = plugins.legend._element;
 
@@ -6256,7 +6256,7 @@ Chart.Legend = plugins.legend._element;
  * @namespace Chart.Title
  * @deprecated since version 2.1.5
  * @todo remove at version 3
- * @private
+ * @
  */
 Chart.Title = plugins.title._element;
 
@@ -6265,7 +6265,7 @@ Chart.Title = plugins.title._element;
  * @namespace Chart.pluginService
  * @deprecated since version 2.1.5
  * @todo remove at version 3
- * @private
+ * @
  */
 Chart.pluginService = Chart.plugins;
 
@@ -6275,7 +6275,7 @@ Chart.pluginService = Chart.plugins;
  * @interface Chart.PluginBase
  * @deprecated since version 2.5.0
  * @todo remove at version 3
- * @private
+ * @
  */
 Chart.PluginBase = Chart.Element.extend({});
 
@@ -6284,7 +6284,7 @@ Chart.PluginBase = Chart.Element.extend({});
  * @namespace Chart.canvasHelpers
  * @deprecated since version 2.6.0
  * @todo remove at version 3
- * @private
+ * @
  */
 Chart.canvasHelpers = Chart.helpers.canvas;
 
@@ -6293,7 +6293,7 @@ Chart.canvasHelpers = Chart.helpers.canvas;
  * @namespace Chart.layoutService
  * @deprecated since version 2.8.0
  * @todo remove at version 3
- * @private
+ * @
  */
 Chart.layoutService = Chart.layouts;
 
@@ -6484,7 +6484,7 @@ defaults._set('horizontalBar', {
 
 /**
  * Computes the "optimal" sample size to maintain bars equally sized while preventing overlap.
- * @private
+ * @
  */
 function computeMinSampleSize(scale, pixels) {
 	var min = scale.isHorizontal() ? scale.width : scale.height;
@@ -6508,7 +6508,7 @@ function computeMinSampleSize(scale, pixels) {
  * Computes an "ideal" category based on the absolute bar thickness or, if undefined or null,
  * uses the smallest interval (see computeMinSampleSize) that prevents bar overlapping. This
  * mode currently always generates bars equally sized (until we introduce scriptable options?).
- * @private
+ * @
  */
 function computeFitCategoryTraits(index, ruler, options) {
 	var thickness = options.barThickness;
@@ -6538,7 +6538,7 @@ function computeFitCategoryTraits(index, ruler, options) {
  * Computes an "optimal" category that globally arranges bars side by side (no gap when
  * percentage options are 1), based on the previous and following categories. This mode
  * generates bars with different widths when data are not evenly spaced.
- * @private
+ * @
  */
 function computeFlexCategoryTraits(index, ruler, options) {
 	var pixels = ruler.pixels;
@@ -6626,7 +6626,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		updateElementGeometry: function(rectangle, index, reset) {
 			var me = this;
@@ -6647,28 +6647,28 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getValueScaleId: function() {
 			return this.getMeta().yAxisID;
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getIndexScaleId: function() {
 			return this.getMeta().xAxisID;
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getValueScale: function() {
 			return this.getScaleForId(this.getValueScaleId());
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getIndexScale: function() {
 			return this.getScaleForId(this.getIndexScaleId());
@@ -6678,7 +6678,7 @@ module.exports = function(Chart) {
 		 * Returns the stacks based on groups and bar visibility.
 		 * @param {Number} [last] - The dataset index
 		 * @returns {Array} The stack list
-		 * @private
+		 * @
 		 */
 		_getStacks: function(last) {
 			var me = this;
@@ -6704,7 +6704,7 @@ module.exports = function(Chart) {
 
 		/**
 		 * Returns the effective number of stacks based on groups and bar visibility.
-		 * @private
+		 * @
 		 */
 		getStackCount: function() {
 			return this._getStacks().length;
@@ -6715,7 +6715,7 @@ module.exports = function(Chart) {
 		 * @param {Number} [datasetIndex] - The dataset index
 		 * @param {String} [name] - The stack name to find
 		 * @returns {Number} The stack index
-		 * @private
+		 * @
 		 */
 		getStackIndex: function(datasetIndex, name) {
 			var stacks = this._getStacks(datasetIndex);
@@ -6729,7 +6729,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getRuler: function() {
 			var me = this;
@@ -6762,7 +6762,7 @@ module.exports = function(Chart) {
 
 		/**
 		 * Note: pixel values are not clamped to the scale area.
-		 * @private
+		 * @
 		 */
 		calculateBarValuePixels: function(datasetIndex, index) {
 			var me = this;
@@ -6806,7 +6806,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		calculateBarIndexPixels: function(datasetIndex, index, ruler) {
 			var me = this;
@@ -6852,14 +6852,14 @@ module.exports = function(Chart) {
 
 	Chart.controllers.horizontalBar = Chart.controllers.bar.extend({
 		/**
-		 * @private
+		 * @
 		 */
 		getValueScaleId: function() {
 			return this.getMeta().xAxisID;
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getIndexScaleId: function() {
 			return this.getMeta().yAxisID;
@@ -6986,7 +6986,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		_resolveElementOptions: function(point, index) {
 			var me = this;
@@ -7836,7 +7836,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		_updateRadius: function() {
 			var me = this;
@@ -7920,7 +7920,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		_computeAngle: function(index) {
 			var me = this;
@@ -8280,7 +8280,7 @@ module.exports = {
 	},
 
 	/**
-	 * @private
+	 * @
 	 */
 	startDigest: function() {
 		var me = this;
@@ -8305,7 +8305,7 @@ module.exports = {
 	},
 
 	/**
-	 * @private
+	 * @
 	 */
 	advance: function(count) {
 		var animations = this.animations;
@@ -8409,7 +8409,7 @@ module.exports = function(Chart) {
 
 	helpers.extend(Chart.prototype, /** @lends Chart */ {
 		/**
-		 * @private
+		 * @
 		 */
 		construct: function(item, config) {
 			var me = this;
@@ -8437,7 +8437,7 @@ module.exports = function(Chart) {
 			 * @prop Chart#chart
 			 * @deprecated since version 2.6.0
 			 * @todo remove at version 3
-			 * @private
+			 * @
 			 */
 			me.chart = me;
 			me.controller = me; // chart.chart.controller #inception
@@ -8469,7 +8469,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		initialize: function() {
 			var me = this;
@@ -8688,7 +8688,7 @@ module.exports = function(Chart) {
 
 		/**
 		 * Reset the elements of all datasets
-		 * @private
+		 * @
 		 */
 		resetElements: function() {
 			var me = this;
@@ -8773,7 +8773,7 @@ module.exports = function(Chart) {
 		/**
 		 * Updates the chart layout unless a plugin returns `false` to the `beforeLayout`
 		 * hook, in which case, plugins will not be called on `afterLayout`.
-		 * @private
+		 * @
 		 */
 		updateLayout: function() {
 			var me = this;
@@ -8789,7 +8789,7 @@ module.exports = function(Chart) {
 			 * @method IPlugin#afterScaleUpdate
 			 * @deprecated since version 2.5.0
 			 * @todo remove at version 3
-			 * @private
+			 * @
 			 */
 			plugins.notify(me, 'afterScaleUpdate');
 			plugins.notify(me, 'afterLayout');
@@ -8798,7 +8798,7 @@ module.exports = function(Chart) {
 		/**
 		 * Updates all datasets unless a plugin returns `false` to the `beforeDatasetsUpdate`
 		 * hook, in which case, plugins will not be called on `afterDatasetsUpdate`.
-		 * @private
+		 * @
 		 */
 		updateDatasets: function() {
 			var me = this;
@@ -8817,7 +8817,7 @@ module.exports = function(Chart) {
 		/**
 		 * Updates dataset at index unless a plugin returns `false` to the `beforeDatasetUpdate`
 		 * hook, in which case, plugins will not be called on `afterDatasetUpdate`.
-		 * @private
+		 * @
 		 */
 		updateDataset: function(index) {
 			var me = this;
@@ -8923,7 +8923,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		transition: function(easingValue) {
 			var me = this;
@@ -8940,7 +8940,7 @@ module.exports = function(Chart) {
 		/**
 		 * Draws all datasets unless a plugin returns `false` to the `beforeDatasetsDraw`
 		 * hook, in which case, plugins will not be called on `afterDatasetsDraw`.
-		 * @private
+		 * @
 		 */
 		drawDatasets: function(easingValue) {
 			var me = this;
@@ -8962,7 +8962,7 @@ module.exports = function(Chart) {
 		/**
 		 * Draws dataset at index unless a plugin returns `false` to the `beforeDatasetDraw`
 		 * hook, in which case, plugins will not be called on `afterDatasetDraw`.
-		 * @private
+		 * @
 		 */
 		drawDataset: function(index, easingValue) {
 			var me = this;
@@ -8985,7 +8985,7 @@ module.exports = function(Chart) {
 		/**
 		 * Draws tooltip unless a plugin returns `false` to the `beforeTooltipDraw`
 		 * hook, in which case, plugins will not be called on `afterTooltipDraw`.
-		 * @private
+		 * @
 		 */
 		_drawTooltip: function(easingValue) {
 			var me = this;
@@ -9077,7 +9077,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		destroyDatasetMeta: function(datasetIndex) {
 			var id = this.id;
@@ -9130,7 +9130,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		bindEvents: function() {
 			var me = this;
@@ -9157,7 +9157,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		unbindEvents: function() {
 			var me = this;
@@ -9185,7 +9185,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		eventHandler: function(e) {
 			var me = this;
@@ -9236,7 +9236,7 @@ module.exports = function(Chart) {
 
 		/**
 		 * Handle an event
-		 * @private
+		 * @
 		 * @param {IEvent} event the event to handle
 		 * @return {Boolean} true if the chart needs to re-render
 		 */
@@ -9290,7 +9290,7 @@ module.exports = function(Chart) {
 	 * @class Chart.Controller
 	 * @deprecated since version 2.6.0
 	 * @todo remove at version 3
-	 * @private
+	 * @
 	 */
 	Chart.Controller = Chart;
 };
@@ -9434,7 +9434,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		destroy: function() {
 			if (this._data) {
@@ -9561,7 +9561,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		resyncElements: function() {
 			var me = this;
@@ -9578,7 +9578,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		insertElements: function(start, count) {
 			for (var i = 0; i < count; ++i) {
@@ -9587,28 +9587,28 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		onDataPush: function() {
 			this.insertElements(this.getDataset().data.length - 1, arguments.length);
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		onDataPop: function() {
 			this.getMeta().data.pop();
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		onDataShift: function() {
 			this.getMeta().data.shift();
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		onDataSplice: function(start, count) {
 			this.getMeta().data.splice(start, count);
@@ -9616,7 +9616,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		onDataUnshift: function() {
 			this.insertElements(0, arguments.length);
@@ -9633,7 +9633,7 @@ var helpers = require(46);
 
 module.exports = {
 	/**
-	 * @private
+	 * @
 	 */
 	_set: function(scope, values) {
 		return helpers.merge(this[scope] || (this[scope] = {}), values);
@@ -10178,7 +10178,7 @@ module.exports = function() {
 
 	};
 
-	// Private helper function to convert max-width/max-height values that may be percentages into a number
+	//  helper function to convert max-width/max-height values that may be percentages into a number
 	function parseMaxStyle(styleValue, node, parentProperty) {
 		var valueInPixels;
 		if (typeof styleValue === 'string') {
@@ -10197,13 +10197,13 @@ module.exports = function() {
 
 	/**
 	 * Returns if the given value contains an effective constraint.
-	 * @private
+	 * @
 	 */
 	function isConstrainedValue(value) {
 		return value !== undefined && value !== null && value !== 'none';
 	}
 
-	// Private helper to get a constraint dimension
+	//  helper to get a constraint dimension
 	// @param domNode : the node to check the constraint on
 	// @param maxStyle : the style that defines the maximum for the direction we are using (maxWidth / maxHeight)
 	// @param percentageProperty : property of parent to use when calculating width as a percentage
@@ -10234,7 +10234,7 @@ module.exports = function() {
 		return getConstraintDimension(domNode, 'max-height', 'clientHeight');
 	};
 	/**
-	 * @private
+	 * @
  	 */
 	helpers._calculatePadding = function(container, padding, parentDimension) {
 		padding = helpers.getStyle(container, padding);
@@ -10242,7 +10242,7 @@ module.exports = function() {
 		return padding.indexOf('%') > -1 ? parentDimension / parseInt(padding, 10) : parseInt(padding, 10);
 	};
 	/**
-	 * @private
+	 * @
 	 */
 	helpers._getParentNode = function(domNode) {
 		var parent = domNode.parentNode;
@@ -10566,7 +10566,7 @@ module.exports = {
 		 * @function Chart.Interaction.modes.label
 		 * @deprecated since version 2.4.0
 		 * @todo remove at version 3
-		 * @private
+		 * @
 		 */
 		label: indexMode,
 
@@ -10608,7 +10608,7 @@ module.exports = {
 		 * @function Chart.Interaction.modes.x-axis
 		 * @deprecated since version 2.4.0. Use index mode and intersect == true
 		 * @todo remove at version 3
-		 * @private
+		 * @
 		 */
 		'x-axis': function(chart, e) {
 			return indexMode(chart, e, {intersect: false});
@@ -11215,7 +11215,7 @@ defaults._set('global', {
 module.exports = {
 	/**
 	 * Globally registered plugins.
-	 * @private
+	 * @
 	 */
 	_plugins: [],
 
@@ -11223,7 +11223,7 @@ module.exports = {
 	 * This identifier is used to invalidate the descriptors cache attached to each chart
 	 * when a global plugin is registered or unregistered. In this case, the cache ID is
 	 * incremented and descriptors are regenerated during following API calls.
-	 * @private
+	 * @
 	 */
 	_cacheId: 0,
 
@@ -11318,7 +11318,7 @@ module.exports = {
 	/**
 	 * Returns descriptors of enabled plugins for the given chart.
 	 * @returns {Array} [{ plugin, options }]
-	 * @private
+	 * @
 	 */
 	descriptors: function(chart) {
 		var cache = chart.$plugins || (chart.$plugins = {});
@@ -11363,7 +11363,7 @@ module.exports = {
 	 * Invalidates cache for the given chart: descriptors hold a reference on plugin option,
 	 * but in some cases, this reference can be changed by the user when updating options.
 	 * https://github.com/chartjs/Chart.js/issues/5111#issuecomment-355934167
-	 * @private
+	 * @
 	 */
 	_invalidate: function(chart) {
 		delete chart.$plugins;
@@ -11704,7 +11704,7 @@ module.exports = Element.extend({
 	/**
 	 * Get the padding needed for the scale
 	 * @method getPadding
-	 * @private
+	 * @
 	 * @returns {Padding} the necessary padding
 	 */
 	getPadding: function() {
@@ -11785,9 +11785,9 @@ module.exports = Element.extend({
 		me.afterDataLimits();
 
 		// Ticks - `this.ticks` is now DEPRECATED!
-		// Internal ticks are now stored as objects in the PRIVATE `this._ticks` member
+		// Internal ticks are now stored as objects in the  `this._ticks` member
 		// and must not be accessed directly from outside this class. `this.ticks` being
-		// around for long time and not marked as private, we can't change its structure
+		// around for long time and not marked as , we can't change its structure
 		// without unexpected breaking changes. If you need to access the scale ticks,
 		// use scale.getTicks() instead.
 
@@ -12072,7 +12072,7 @@ module.exports = Element.extend({
 
 	/**
 	 * Handle margins and padding interactions
-	 * @private
+	 * @
 	 */
 	handleMargins: function() {
 		var me = this;
@@ -12206,7 +12206,7 @@ module.exports = Element.extend({
 
 	/**
 	 * Returns a subset of ticks to be plotted to avoid overlapping labels.
-	 * @private
+	 * @
 	 */
 	_autoSkip: function(ticks) {
 		var skipRatio;
@@ -12847,7 +12847,7 @@ function splitNewlines(str) {
 }
 
 
-// Private helper to create a tooltip item model
+//  helper to create a tooltip item model
 // @param element : the chart element (point, arc, bar) to create the tooltip item for
 // @return : new tooltip item
 function createTooltipItem(element) {
@@ -13569,7 +13569,7 @@ var exports = module.exports = Element.extend({
 
 	/**
 	 * Handle an event
-	 * @private
+	 * @
 	 * @param {IEvent} event - The event to handle
 	 * @returns {Boolean} true if the tooltip changed
 	 */
@@ -13933,7 +13933,7 @@ function isVertical(bar) {
  * Helper function to get the bounds of the bar regardless of the orientation
  * @param bar {Chart.Element.Rectangle} the bar
  * @return {Bounds} bounds of the bar
- * @private
+ * @
  */
 function getBarBounds(bar) {
 	var vm = bar._view;
@@ -14331,7 +14331,7 @@ var exports = module.exports = {
  * @namespace Chart.helpers.clear
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.clear = exports.clear;
 
@@ -14340,7 +14340,7 @@ helpers.clear = exports.clear;
  * @namespace Chart.helpers.drawRoundedRectangle
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.drawRoundedRectangle = function(ctx) {
 	ctx.beginPath();
@@ -14527,7 +14527,7 @@ var helpers = {
 	/**
 	 * The default merger when Chart.helpers.merge is called without merger option.
 	 * Note(SB): this method is also used by configMerge and scaleMerge as fallback.
-	 * @private
+	 * @
 	 */
 	_merger: function(key, target, source, options) {
 		var tval = target[key];
@@ -14542,7 +14542,7 @@ var helpers = {
 
 	/**
 	 * Merges source[key] in target[key] only if target[key] is undefined.
-	 * @private
+	 * @
 	 */
 	_mergerIf: function(key, target, source) {
 		var tval = target[key];
@@ -14654,7 +14654,7 @@ module.exports = helpers;
  * @function Chart.helpers.callCallback
  * @deprecated since version 2.6.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.callCallback = helpers.callback;
 
@@ -14664,7 +14664,7 @@ helpers.callCallback = helpers.callback;
  * @function Chart.helpers.indexOf
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.indexOf = function(array, item, fromIndex) {
 	return Array.prototype.indexOf.call(array, item, fromIndex);
@@ -14675,7 +14675,7 @@ helpers.indexOf = function(array, item, fromIndex) {
  * @function Chart.helpers.getValueOrDefault
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.getValueOrDefault = helpers.valueOrDefault;
 
@@ -14684,7 +14684,7 @@ helpers.getValueOrDefault = helpers.valueOrDefault;
  * @function Chart.helpers.getValueAtIndexOrDefault
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.getValueAtIndexOrDefault = helpers.valueAtIndexOrDefault;
 
@@ -14936,7 +14936,7 @@ module.exports = {
  * @function Chart.helpers.easingEffects
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.easingEffects = effects;
 
@@ -15168,7 +15168,7 @@ function initCanvas(canvas, config) {
 /**
  * Detects support for options object argument in addEventListener.
  * https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Safely_detecting_option_support
- * @private
+ * @
  */
 var supportsEventListenerOptions = (function() {
 	var supports = false;
@@ -15381,7 +15381,7 @@ module.exports = {
 	/**
 	 * This property holds whether this platform is enabled for the current environment.
 	 * Currently used by platform.js to select the proper implementation.
-	 * @private
+	 * @
 	 */
 	_enabled: typeof window !== 'undefined' && typeof document !== 'undefined',
 
@@ -15507,7 +15507,7 @@ module.exports = {
  * @function Chart.helpers.addEvent
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.addEvent = addEventListener;
 
@@ -15518,7 +15518,7 @@ helpers.addEvent = addEventListener;
  * @function Chart.helpers.removeEvent
  * @deprecated since version 2.7.0
  * @todo remove at version 3
- * @private
+ * @
  */
 helpers.removeEvent = removeEventListener;
 
@@ -16392,7 +16392,7 @@ var Legend = Element.extend({
 
 	/**
 	 * Handle an event
-	 * @private
+	 * @
 	 * @param {IEvent} event - The event to handle
 	 * @return {Boolean} true if a change occured
 	 */
@@ -16465,7 +16465,7 @@ module.exports = {
 	 * Chart.Legend obsolete. To avoid a breaking change, we export the Legend as part of
 	 * the plugin, which one will be re-exposed in the chart.js file.
 	 * https://github.com/chartjs/Chart.js/pull/2640
-	 * @private
+	 * @
 	 */
 	_element: Legend,
 
@@ -16726,7 +16726,7 @@ module.exports = {
 	 * Chart.Title obsolete. To avoid a breaking change, we export the Title as part of
 	 * the plugin, which one will be re-exposed in the chart.js file.
 	 * https://github.com/chartjs/Chart.js/pull/2640
-	 * @private
+	 * @
 	 */
 	_element: Title,
 
@@ -16775,7 +16775,7 @@ module.exports = function() {
 		/**
 		* Internal function to get the correct labels. If data.xLabels or data.yLabels are defined, use those
 		* else fall back to data.labels
-		* @private
+		* @
 		*/
 		getLabels: function() {
 			var data = this.chart.data;
@@ -17547,7 +17547,7 @@ module.exports = function(Chart) {
 		 * Returns the value of the first tick.
 		 * @param {Number} value - The minimum not zero value.
 		 * @return {Number} The first tick value.
-		 * @private
+		 * @
 		 */
 		_getFirstTickValue: function(value) {
 			var exp = Math.floor(helpers.log10(value));
@@ -18027,7 +18027,7 @@ module.exports = function(Chart) {
 		},
 		/**
 		 * Set radius reductions and determine new radius and center point
-		 * @private
+		 * @
 		 */
 		setReductions: function(largestPossibleRadius, furthestLimits, furthestAngles) {
 			var me = this;
@@ -18761,7 +18761,7 @@ module.exports = function() {
 			me.min = Math.min(min, max);
 			me.max = Math.max(min + 1, max);
 
-			// PRIVATE
+			// 
 			me._horizontal = me.isHorizontal();
 			me._table = [];
 			me._timestamps = {
@@ -18813,7 +18813,7 @@ module.exports = function() {
 			me.min = min;
 			me.max = max;
 
-			// PRIVATE
+			// 
 			me._unit = timeOpts.unit || determineUnitForFormatting(ticks, timeOpts.minUnit, me.min, me.max);
 			me._majorUnit = determineMajorUnit(me._unit);
 			me._table = buildLookupTable(me._timestamps.data, min, max, options.distribution);
@@ -18845,7 +18845,7 @@ module.exports = function() {
 
 		/**
 		 * Function to format an individual tick mark
-		 * @private
+		 * @
 		 */
 		tickFormatFunction: function(tick, index, ticks, formatOverride) {
 			var me = this;
@@ -18877,7 +18877,7 @@ module.exports = function() {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getPixelForOffset: function(time) {
 			var me = this;
@@ -18924,7 +18924,7 @@ module.exports = function() {
 
 		/**
 		 * Crude approximation of what the label width might be
-		 * @private
+		 * @
 		 */
 		getLabelWidth: function(label) {
 			var me = this;
@@ -18939,7 +18939,7 @@ module.exports = function() {
 		},
 
 		/**
-		 * @private
+		 * @
 		 */
 		getLabelCapacity: function(exampleTime) {
 			var me = this;

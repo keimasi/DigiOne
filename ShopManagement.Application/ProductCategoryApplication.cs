@@ -9,7 +9,7 @@ namespace ShopManagement.Application
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
-        private readonly IProductCategoryRepository _productCategoryRepository;
+         readonly IProductCategoryRepository _productCategoryRepository;
 
         public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
         {
@@ -20,7 +20,7 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             if (_productCategoryRepository.Exists(x => x.Name == command.Name))
-                return operation.Failed("نام رکورد وارد شده تکراری است");
+                return operation.Failed(ApplicationMessage.DuplicatedRecord);
 
             var slug = command.Slug.GenerateSlug();
 
@@ -38,7 +38,7 @@ namespace ShopManagement.Application
             var productCategory = _productCategoryRepository.Get(command.Id);
 
             if (productCategory == null)
-                operation.Failed("رکورد با اطلاعات درخواست شده یافت نشد.");
+                operation.Failed(ApplicationMessage.RecordNotFound);
 
             var slug = command.Slug.GenerateSlug();
 

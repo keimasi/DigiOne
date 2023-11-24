@@ -9,7 +9,7 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.ProductCategory
     {
         public List<ProductCategoryViewModel> ProductCategoryList;
 
-        private readonly IProductCategoryApplication _productCategoryApplication;
+         readonly IProductCategoryApplication _productCategoryApplication;
 
         public IndexModel(IProductCategoryApplication productCategoryApplication)
         {

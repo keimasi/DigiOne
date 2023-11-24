@@ -167,3 +167,6 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admini
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\ProductCategory\Create.cshtml.g.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\ProductCategory\Edit.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Product\Create.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Product\Edit.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Product\Index.cshtml.g.cs

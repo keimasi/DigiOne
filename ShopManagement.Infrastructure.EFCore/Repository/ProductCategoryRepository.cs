@@ -7,7 +7,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductCategoryRepository : RepositoryBace<int,ProductCategoryEntity>,IProductCategoryRepository
     {
-        private readonly ShopContext _context;
+         readonly ShopContext _context;
 
         public ProductCategoryRepository(ShopContext context) : base(context)
         {

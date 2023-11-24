@@ -9,7 +9,7 @@ namespace _0_Framwork.Infrastructure
 {
     public class RepositoryBace<TKey,T> : IRepository<TKey,T> where T : class
     {
-        private readonly DbContext _Context;
+         readonly DbContext _Context;
 
         public RepositoryBace(DbContext context)
         {

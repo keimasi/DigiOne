@@ -1,4 +1,6 @@
-﻿using _0_Framwork.Domain;
+﻿using System.Collections.Generic;
+using _0_Framwork.Domain;
+using ShopManagement.Domain.Product;
 
 namespace ShopManagement.Domain.ProductCategory
 {
@@ -12,6 +14,13 @@ namespace ShopManagement.Domain.ProductCategory
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
+
+        public List<ProductEntity> Products { get; set; }
+
+        public ProductCategoryEntity()
+        {
+            Products=new List<ProductEntity>();
+        }
 
         public ProductCategoryEntity(string name, string description, string picture, string pictureAlt,
             string pictureTitle, string keywords, string metaDescription, string slug)

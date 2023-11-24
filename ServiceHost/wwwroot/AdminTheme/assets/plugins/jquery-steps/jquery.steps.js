@@ -62,7 +62,7 @@ if (!String.prototype.format)
  * A global unique id count.
  *
  * @static
- * @private
+ * @
  * @property _uniqueId
  * @type Integer
  **/
@@ -72,7 +72,7 @@ var _uniqueId = 0;
  * The plugin prefix for cookies.
  *
  * @final
- * @private
+ * @
  * @property _cookiePrefix
  * @type String
  **/
@@ -82,7 +82,7 @@ var _cookiePrefix = "jQu3ry_5teps_St@te_";
  * Suffix for the unique tab id.
  *
  * @final
- * @private
+ * @
  * @property _tabSuffix
  * @type String
  * @since 0.9.7
@@ -93,7 +93,7 @@ var _tabSuffix = "-t-";
  * Suffix for the unique tabpanel id.
  *
  * @final
- * @private
+ * @
  * @property _tabpanelSuffix
  * @type String
  * @since 0.9.7
@@ -104,7 +104,7 @@ var _tabpanelSuffix = "-p-";
  * Suffix for the unique title id.
  *
  * @final
- * @private
+ * @
  * @property _titleSuffix
  * @type String
  * @since 0.9.7
@@ -115,7 +115,7 @@ var _titleSuffix = "-h-";
  * An error message for an "index out of range" error.
  *
  * @final
- * @private
+ * @
  * @property _indexOutOfRangeErrorMessage
  * @type String
  **/
@@ -125,7 +125,7 @@ var _indexOutOfRangeErrorMessage = "Index out of range.";
  * An error message for an "missing corresponding element" error.
  *
  * @final
- * @private
+ * @
  * @property _missingCorrespondingElementErrorMessage
  * @type String
  **/
@@ -135,7 +135,7 @@ var _missingCorrespondingElementErrorMessage = "One or more corresponding step {
  * Adds a step to the cache.
  *
  * @static
- * @private
+ * @
  * @method addStepToCache
  * @param wizard {Object} A jQuery wizard object
  * @param step {Object} The step object to add
@@ -204,7 +204,7 @@ function analyzeData(wizard, options, state)
  * Triggers the onCanceled event.
  *
  * @static
- * @private
+ * @
  * @method cancel
  * @param wizard {Object} The jQuery wizard object
  **/
@@ -222,7 +222,7 @@ function decreaseCurrentIndexBy(state, decreaseBy)
  * Removes the control functionality completely and transforms the current state to the initial HTML structure.
  *
  * @static
- * @private
+ * @
  * @method destroy
  * @param wizard {Object} A jQuery wizard object
  **/
@@ -270,7 +270,7 @@ function destroy(wizard, options)
  * Triggers the onFinishing and onFinished event.
  *
  * @static
- * @private
+ * @
  * @method finishStep
  * @param wizard {Object} The jQuery wizard object
  * @param state {Object} The state container of the current wizard
@@ -294,7 +294,7 @@ function finishStep(wizard, state)
  * Gets or creates if not exist an unique event namespace for the given wizard instance.
  *
  * @static
- * @private
+ * @
  * @method getEventNamespace
  * @param wizard {Object} A jQuery wizard object
  * @return {String} Returns the unique event namespace for the given wizard
@@ -352,7 +352,7 @@ function getSteps(wizard)
  * Gets a specific step object by index.
  *
  * @static
- * @private
+ * @
  * @method getStep
  * @param index {Integer} An integer that belongs to the position of a step
  * @return {Object} A specific step object
@@ -373,7 +373,7 @@ function getStep(wizard, index)
  * Gets or creates if not exist an unique id from the given wizard instance.
  *
  * @static
- * @private
+ * @
  * @method getUniqueId
  * @param wizard {Object} A jQuery wizard object
  * @return {String} Returns the unique id for the given wizard
@@ -402,7 +402,7 @@ function getUniqueId(wizard)
  * Gets a valid enum value by checking a specific enum key or value.
  * 
  * @static
- * @private
+ * @
  * @method getValidEnumValue
  * @param enumType {Object} Type of enum
  * @param keyOrValue {Object} Key as `String` or value as `Integer` to check for
@@ -447,7 +447,7 @@ function getValidEnumValue(enumType, keyOrValue)
  * Routes to the next step.
  *
  * @static
- * @private
+ * @
  * @method goToNextStep
  * @param wizard {Object} The jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -463,7 +463,7 @@ function goToNextStep(wizard, options, state)
  * Routes to the previous step.
  *
  * @static
- * @private
+ * @
  * @method goToPreviousStep
  * @param wizard {Object} The jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -479,7 +479,7 @@ function goToPreviousStep(wizard, options, state)
  * Routes to a specific step by a given index.
  *
  * @static
- * @private
+ * @
  * @method goToStep
  * @param wizard {Object} The jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -532,7 +532,7 @@ function increaseCurrentIndexBy(state, increaseBy)
  * Initializes the component.
  *
  * @static
- * @private
+ * @
  * @method initialize
  * @param options {Object} The component settings
  **/
@@ -574,7 +574,7 @@ function initialize(options)
  * Inserts a new step to a specific position.
  *
  * @static
- * @private
+ * @
  * @method insertStep
  * @param wizard {Object} The jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -643,7 +643,7 @@ function insertStep(wizard, options, state, index, step)
  * Inserts a step object to the cache at a specific position.
  *
  * @static
- * @private
+ * @
  * @method insertStepToCache
  * @param wizard {Object} A jQuery wizard object
  * @param index {Integer} The position (zero-based) to add
@@ -658,7 +658,7 @@ function insertStepToCache(wizard, index, step)
  * Handles the keyup DOM event for pagination.
  *
  * @static
- * @private
+ * @
  * @event keyup
  * @param event {Object} An event object
  */
@@ -691,7 +691,7 @@ function keyUpHandler(event)
  * Loads and includes async content.
  *
  * @static
- * @private
+ * @
  * @method loadAsyncContent
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -733,7 +733,7 @@ function loadAsyncContent(wizard, options, state)
  * Fires the action next or previous click event.
  *
  * @static
- * @private
+ * @
  * @method paginationClick
  * @param wizard {Object} The jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -773,7 +773,7 @@ function paginationClick(wizard, options, state, index)
  * Fires when a pagination click happens.
  *
  * @static
- * @private
+ * @
  * @event click
  * @param event {Object} An event object
  */
@@ -811,7 +811,7 @@ function paginationClickHandler(event)
  * Refreshs the visualization state for the entire pagination.
  *
  * @static
- * @private
+ * @
  * @method refreshPagination
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -848,7 +848,7 @@ function refreshPagination(wizard, options, state)
  * Refreshs the visualization state for the step navigation (tabs).
  *
  * @static
- * @private
+ * @
  * @method refreshStepNavigation
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -878,7 +878,7 @@ function refreshStepNavigation(wizard, options, state, oldIndex)
  * Refreshes step buttons and their related titles beyond a certain position.
  *
  * @static
- * @private
+ * @
  * @method refreshSteps
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -928,7 +928,7 @@ function registerEvents(wizard, options)
  * Removes a specific step by an given index.
  *
  * @static
- * @private
+ * @
  * @method removeStep
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -984,7 +984,7 @@ function removeStepFromCache(wizard, index)
  * Transforms the base html structure to a more sensible html structure.
  *
  * @static
- * @private
+ * @
  * @method render
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -1024,7 +1024,7 @@ function render(wizard, options, state)
  * Transforms the body to a proper tabpanel.
  *
  * @static
- * @private
+ * @
  * @method renderBody
  * @param wizard {Object} A jQuery wizard object
  * @param body {Object} A jQuery body object
@@ -1044,7 +1044,7 @@ function renderBody(wizard, state, body, index)
  * Renders a pagination if enabled.
  *
  * @static
- * @private
+ * @
  * @method renderPagination
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -1087,7 +1087,7 @@ function renderPagination(wizard, options, state)
  * Renders a template and replaces all placeholder.
  *
  * @static
- * @private
+ * @
  * @method renderTemplate
  * @param template {String} A template
  * @param substitutes {Object} A list of substitute
@@ -1117,7 +1117,7 @@ function renderTemplate(template, substitutes)
  * Transforms the title to a step item button.
  *
  * @static
- * @private
+ * @
  * @method renderTitle
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -1177,7 +1177,7 @@ function renderTitle(wizard, options, state, header, index)
  * Saves the current state to a cookie.
  *
  * @static
- * @private
+ * @
  * @method saveCurrentStateToCookie
  * @param wizard {Object} A jQuery wizard object
  * @param options {Object} Settings of the current wizard
@@ -1245,7 +1245,7 @@ function startTransitionEffect(wizard, options, state, index, oldIndex, doneCall
  * Fires when a step click happens.
  *
  * @static
- * @private
+ * @
  * @event click
  * @param event {Object} An event object
  */
@@ -1289,7 +1289,7 @@ function throwError(message)
  * Checks an argument for null or undefined and throws an error if one check applies.
  *
  * @static
- * @private
+ * @
  * @method validateArgument
  * @param argumentName {String} The name of the given argument
  * @param argumentValue {Object} The argument itself
