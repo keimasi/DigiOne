@@ -141,6 +141,44 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     b.ToTable("ProductCategories");
                 });
 
+            modelBuilder.Entity("ShopManagement.Domain.ProductPicture.ProductPictureEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRemove")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Picture")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<string>("PictureAlt")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("PictureTitle")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductPictures");
+                });
+
             modelBuilder.Entity("ShopManagement.Domain.Product.ProductEntity", b =>
                 {
                     b.HasOne("ShopManagement.Domain.ProductCategory.ProductCategoryEntity", "Category")
@@ -150,6 +188,22 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ShopManagement.Domain.ProductPicture.ProductPictureEntity", b =>
+                {
+                    b.HasOne("ShopManagement.Domain.Product.ProductEntity", "Product")
+                        .WithMany("ProductPicture")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("ShopManagement.Domain.Product.ProductEntity", b =>
+                {
+                    b.Navigation("ProductPicture");
                 });
 
             modelBuilder.Entity("ShopManagement.Domain.ProductCategory.ProductCategoryEntity", b =>

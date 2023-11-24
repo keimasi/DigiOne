@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.Product;
 using ShopManagement.Domain.ProductCategory;
+using ShopManagement.Domain.ProductPicture;
 using ShopManagement.Infrastructure.EFCore.Mapping;
 
 namespace ShopManagement.Infrastructure.EFCore
@@ -9,6 +10,7 @@ namespace ShopManagement.Infrastructure.EFCore
     {
         public DbSet<ProductCategoryEntity> productCategories { get; set; }
         public DbSet<ProductEntity> Products { get; set; }
+        public DbSet<ProductPictureEntity> ProductPictures { get; set; }
 
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {

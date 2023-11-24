@@ -1,5 +1,7 @@
-﻿using _0_Framwork.Domain;
+﻿using System.Collections.Generic;
+using _0_Framwork.Domain;
 using ShopManagement.Domain.ProductCategory;
+using ShopManagement.Domain.ProductPicture;
 
 namespace ShopManagement.Domain.Product
 {
@@ -19,6 +21,7 @@ namespace ShopManagement.Domain.Product
         public string MetaDescription { get; private set; }
         public int CategoryId { get; private set; }
         public ProductCategoryEntity Category { get; private set; }
+        public List<ProductPictureEntity> ProductPicture { get; private set; }
 
         public ProductEntity(string name, string code, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle, string slug, string keywords,
