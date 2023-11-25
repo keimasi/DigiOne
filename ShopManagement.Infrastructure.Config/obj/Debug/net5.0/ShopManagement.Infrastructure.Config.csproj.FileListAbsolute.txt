@@ -21,3 +21,5 @@ C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\refint\ShopManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\01_DigiOneQuery.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\01_DigiOneQuery.pdb

@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using _01_DigiOneQuery.Contracts.Slider;
+using _01_DigiOneQuery.Query;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
 using ShopManagement.Application.Contracts.Product;
@@ -29,6 +31,8 @@ namespace ShopManagement.Infrastructure.Config
 
             services.AddTransient<ISliderApplication, SliderApplication>();
             services.AddTransient<ISliderRepository, SliderRepository>();
+
+            services.AddTransient<ISliderQuery, SliderQuery>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

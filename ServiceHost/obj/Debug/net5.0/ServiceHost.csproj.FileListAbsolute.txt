@@ -176,3 +176,6 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admini
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Slider\Create.cshtml.g.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Slider\Edit.cshtml.g.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Slider\Index.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\01_DigiOneQuery.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\01_DigiOneQuery.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\SliderViewComponents\Default.cshtml.g.cs
