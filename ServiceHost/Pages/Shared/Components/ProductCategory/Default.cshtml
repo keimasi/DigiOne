@@ -1,0 +1,28 @@
+﻿@model List<_01_DigiOneQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
+
+<div class="row">
+    <div class="col-12">
+        <div class="brand-slider card border_all bglight">
+            <header class="card-header">
+                <h3 class="card-title"><span>دسته بندی های دیجی وان</span></h3>
+            </header>
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-6 col-md-2 contact-bigicon">
+
+                                <a asp-page="/ProductCategory" asp-route-id="@item.Slug" target="_blank">
+                                    <img class="img-responsive imgpad" src="@item.Picture" alt="@item.PictureAlt"  title="@item.PictureTitle"/>
+                                    <b class="title-3 light-black">@item.Name</b>
+                                </a>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
