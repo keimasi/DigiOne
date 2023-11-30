@@ -1,3 +1,4 @@
+using DiscountManagement.Infrastructure.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +22,7 @@ namespace ServiceHost
         {
             var connectionString = Configuration.GetConnectionString("DigiOneDB");
             ShopMangementBootstrapper.Configure(services,connectionString);
+            DiscountMangementBootstrapper.Configure(services,connectionString);
             services.AddRazorPages();
         }
 

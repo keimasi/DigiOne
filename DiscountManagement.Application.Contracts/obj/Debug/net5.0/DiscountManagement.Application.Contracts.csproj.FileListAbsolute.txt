@@ -1,0 +1,17 @@
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\bin\Debug\net5.0\DiscountManagement.Application.Contracts.deps.json
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\bin\Debug\net5.0\0_Framwork.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\bin\Debug\net5.0\0_Framwork.pdb
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\refint\DiscountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\ref\DiscountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
