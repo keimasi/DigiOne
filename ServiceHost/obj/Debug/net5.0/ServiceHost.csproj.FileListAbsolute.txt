@@ -196,3 +196,13 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admini
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Discounts\ColleagueDiscount\Create.cshtml.g.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Discounts\ColleagueDiscount\Edit.cshtml.g.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Discounts\ColleagueDiscount\Index.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Config.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
