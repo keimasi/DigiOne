@@ -23,7 +23,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             {
                 Name = x.Name,
                 Code = x.Code,
-                UnitPrice = x.UnitPrice,
                 ShortDescription = x.ShortDescription,
                 Description = x.Description,
                 Picture = x.Picture,
@@ -48,7 +47,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Name = x.Name,
                 Code = x.Code,
-                UnitPrice = x.UnitPrice,
                 IsInStock = x.IsInStock,
                 Picture = x.Picture,
                 CategoryName = x.Category.Name,

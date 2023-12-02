@@ -9,7 +9,6 @@ namespace ShopManagement.Domain.Product
     {
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public double UnitPrice { get; private set; }
         public bool IsInStock { get; private set; }
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
@@ -25,7 +24,7 @@ namespace ShopManagement.Domain.Product
 
         public ProductEntity(string name, string code, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle, string slug, string keywords,
-            string metaDescription, int categoryId, double unitPrice)
+            string metaDescription, int categoryId)
         {
             Name = name;
             Code = code;
@@ -38,13 +37,12 @@ namespace ShopManagement.Domain.Product
             Keywords = keywords;
             MetaDescription = metaDescription;
             CategoryId = categoryId;
-            UnitPrice = unitPrice;
             IsInStock = true;
         }
 
         public void Edit(string name, string code, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle, string slug, string keywords,
-            string metaDescription, int categoryId, double unitPrice)
+            string metaDescription, int categoryId)
         {
             Name = name;
             Code = code;
@@ -56,7 +54,6 @@ namespace ShopManagement.Domain.Product
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            UnitPrice = unitPrice;
             CategoryId = categoryId;
         }
 

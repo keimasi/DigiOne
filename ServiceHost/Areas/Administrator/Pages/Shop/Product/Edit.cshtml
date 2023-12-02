@@ -10,7 +10,7 @@
     <div class="modal-body">
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="Name" class="control-label">نام</label>
                     <input type="text" class="form-control" asp-for="Name">
@@ -18,19 +18,11 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="Code" class="control-label">کد</label>
                     <input type="text" class="form-control" asp-for="Code">
                     <span asp-validation-for="Code" class="text-danger"></span>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label asp-for="UnitPrice" class="control-label">قیمت</label>
-                    <input type="text" class="form-control" asp-for="UnitPrice">
-                    <span asp-validation-for="UnitPrice" class="text-danger"></span>
                 </div>
             </div>
         </div>

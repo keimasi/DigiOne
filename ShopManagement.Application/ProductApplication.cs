@@ -25,7 +25,7 @@ namespace ShopManagement.Application
             var slug = command.Slug.GenerateSlug();
             var product = new ProductEntity(command.Name, command.Code, command.ShortDescription, command.Description,
                 command.Picture, command.PictureAlt, command.PictureTitle, slug,
-                command.Keywords, command.MetaDescription, command.CategoryId, command.UnitPrice);
+                command.Keywords, command.MetaDescription, command.CategoryId);
 
             _productRepository.Create(product);
             _productRepository.Save();
@@ -47,7 +47,7 @@ namespace ShopManagement.Application
             var slug = command.Slug.GenerateSlug();
             product.Edit(command.Name, command.Code, command.ShortDescription, command.Description,
                 command.Picture, command.PictureAlt, command.PictureTitle, slug,
-                command.Keywords, command.MetaDescription, command.CategoryId, command.UnitPrice);
+                command.Keywords, command.MetaDescription, command.CategoryId);
 
             _productRepository.Save();
             return operation.Success();
