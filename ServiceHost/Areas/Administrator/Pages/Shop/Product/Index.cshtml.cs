@@ -53,23 +53,5 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.Product
             var result = _productApplication.Edit(command);
             return new JsonResult(result);
         }
-
-        public RedirectToPageResult OnGetNotInStock(int id)
-        {
-            var result = _productApplication.NotInStock(id);
-            if (result.IsSuccess)
-                return RedirectToPage("./Index");
-            Message = result.Message;
-            return RedirectToPage("./Index");
-        }
-
-        public RedirectToPageResult OnGetIsInStock(int id)
-        {
-            var result = _productApplication.InStock(id);
-            if (result.IsSuccess)
-                return RedirectToPage("./Index");
-            Message = result.Message;
-            return RedirectToPage("./Index");
-        }
     }
 }

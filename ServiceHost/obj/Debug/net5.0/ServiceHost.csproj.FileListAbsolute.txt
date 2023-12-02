@@ -206,3 +206,9 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagemen
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Inventory\Create.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Inventory\Edit.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Inventory\Index.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Inventory\Decrease.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Inventory\Increase.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Inventory\InventoryOperationLog.cshtml.g.cs

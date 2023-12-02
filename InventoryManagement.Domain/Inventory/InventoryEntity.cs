@@ -17,8 +17,9 @@ namespace InventoryManagement.Domain.Inventory
 
         public InventoryEntity(int productId, double unitPrice)
         {
-
             InStock = false;
+            ProductId = productId;
+            UnitPrice = unitPrice;
         }
 
         public void Edit(int productId, double unitPrice)

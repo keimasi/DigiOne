@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framwork.Application;
 using _0_Framwork.Infrastructure;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.Inventory;
@@ -33,19 +34,37 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
         {
             var products = _shopContext.Products.ToDictionary(x => x.Id, x => x.Name);
 
-            return _context.Inventory.Select(x=>new InventoryViewModel
+            return _context.Inventory.Select(x => new InventoryViewModel
             {
                 Id = x.Id,
                 Product = products.ContainsKey(x.ProductId) ? products[x.ProductId] : "Unknown Product",
                 UnitPrice = x.UnitPrice,
                 InStock = x.InStock,
-                CurrentCount = x.CalculationCurrentCount()
+                CurrentCount = x.CalculationCurrentCount(),
+                CreateDate = x.CreateDate.ToFarsi()
             }).ToList();
         }
 
         public InventoryEntity GetBy(int productId)
         {
             return _context.Inventory.FirstOrDefault(x => x.ProductId == productId);
+        }
+
+        public List<InventoryOperationViewModel> GetInventoryOperationLog(int inventoryId)
+        {
+            var inventory = _context.Inventory.FirstOrDefault(x => x.Id == inventoryId);
+            return inventory.OperationInventories.Select(x => new InventoryOperationViewModel
+            {
+                Id = x.Id,
+                OperatorId = 1,
+                OperatorName = "سهیل",
+                OrderId = 0,
+                OperationType = x.OperationType,
+                OperationDate = x.OperationDate.ToFarsi(),
+                CurrentCount = x.CurrentCount,
+                Description = x.Description,
+                Count = x.Count
+            }).OrderByDescending(x=>x.Id).ToList();
         }
     }
 }

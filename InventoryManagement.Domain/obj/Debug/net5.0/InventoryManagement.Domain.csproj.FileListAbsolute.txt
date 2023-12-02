@@ -15,3 +15,5 @@ C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Domain\obj\Debug\net5.0\Inv
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Domain\obj\Debug\net5.0\refint\InventoryManagement.Domain.dll
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.pdb
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Domain\obj\Debug\net5.0\ref\InventoryManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

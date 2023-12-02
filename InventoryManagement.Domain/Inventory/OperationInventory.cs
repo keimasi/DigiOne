@@ -26,6 +26,7 @@ namespace InventoryManagement.Domain.Inventory
             Description = description;
             Count = count;
             InventoryId = inventoryId;
+            OperationDate = DateTime.Now;
         }
     }
 }

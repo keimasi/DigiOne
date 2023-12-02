@@ -13,8 +13,6 @@ namespace ShopManagement.Application.Contracts.Product
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
         public string Code { get; set; }
 
-        public bool IsInStock { get; set; }
-
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
         public string ShortDescription { get; set; }
 

@@ -47,7 +47,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Name = x.Name,
                 Code = x.Code,
-                IsInStock = x.IsInStock,
                 Picture = x.Picture,
                 CategoryName = x.Category.Name,
                 CreateDate = x.CreateDate.ToString(CultureInfo.InvariantCulture),

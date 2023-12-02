@@ -531,6 +531,9 @@
             "projectReferences": {
               "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
                 "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              },
+              "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

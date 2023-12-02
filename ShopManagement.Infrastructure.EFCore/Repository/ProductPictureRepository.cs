@@ -3,7 +3,6 @@ using System.Globalization;
 using System.Linq;
 using _0_Framwork.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Domain.ProductPicture;
 

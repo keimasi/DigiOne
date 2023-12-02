@@ -19,7 +19,6 @@
                                     <th>نام</th>
                                     <th>کد</th>
                                     <th>گروه</th>
-                                    <th>موجودی</th>
                                     <th>تاریخ ایجاد</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -31,7 +30,6 @@
                                     <th>نام</th>
                                     <th>کد</th>
                                     <th>گروه</th>
-                                    <th>موجودی</th>
                                     <th>تاریخ ایجاد</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -47,30 +45,11 @@
                                         <td>@item.Name</td>
                                         <td>@item.Code</td>
                                         <td>@item.CategoryName</td>
-                                        <td>
-                                            @if (@item.IsInStock)
-                                            {
-                                                <i class="zmdi zmdi-check text-success"></i>
-                                            }
-                                            else
-                                            {
-                                                <i class="zmdi zmdi-close text-danger"></i>
-                                            }
-                                        </td>
                                         <td>@item.CreateDate</td>
                                         <td>
                                             <a class="btn btn-warning btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
                                                 ویرایش
                                             </a>
-
-                                            @if (item.IsInStock)
-                                            {
-                                                <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id" class="btn btn-danger btn-sm btn-round text-white">اتمام موجودی</a>
-                                            }
-                                            else
-                                            {
-                                                <a asp-page="./Index" asp-page-handler="IsInStock" asp-route-id="@item.Id" class="btn btn-success btn-sm btn-round text-white">موجود شد</a>
-                                            }
                                         </td>
                                     </tr>
                                 }
