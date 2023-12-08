@@ -23,3 +23,15 @@ C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\01_DigiOneQuery.dll
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\01_DigiOneQuery.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb

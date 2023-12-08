@@ -38,7 +38,7 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 Product = products.ContainsKey(x.ProductId) ? products[x.ProductId] : "Unknown Product",
-                UnitPrice = x.UnitPrice,
+                UnitPrice = x.UnitPrice.ToMoney(),
                 InStock = x.InStock,
                 CurrentCount = x.CalculationCurrentCount(),
                 CreateDate = x.CreateDate.ToFarsi()
