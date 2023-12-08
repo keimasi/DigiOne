@@ -1,4 +1,5 @@
-﻿using _01_DigiOneQuery.Contracts.ProductCategory;
+﻿using _01_DigiOneQuery.Contracts.Product;
+using _01_DigiOneQuery.Contracts.ProductCategory;
 using _01_DigiOneQuery.Contracts.Slider;
 using _01_DigiOneQuery.Query;
 using Microsoft.EntityFrameworkCore;
@@ -35,6 +36,7 @@ namespace ShopManagement.Infrastructure.Config
 
             services.AddTransient<ISliderQuery, SliderQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+            services.AddTransient<IProductQuery, ProductQuery>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }
