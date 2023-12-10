@@ -19,7 +19,7 @@ namespace ShopManagement.Domain.ProductCategory
 
         public ProductCategoryEntity()
         {
-            Products=new List<ProductEntity>();
+            Products = new List<ProductEntity>();
         }
 
         public ProductCategoryEntity(string name, string description, string picture, string pictureAlt,
@@ -40,7 +40,10 @@ namespace ShopManagement.Domain.ProductCategory
         {
             Name = name;
             Description = description;
-            Picture = picture;
+
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Keywords = keywords;

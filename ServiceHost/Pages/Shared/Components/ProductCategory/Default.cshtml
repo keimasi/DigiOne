@@ -14,7 +14,7 @@
                             <div class="col-6 col-md-2 contact-bigicon">
 
                                 <a asp-page="/ProductCategory" asp-route-id="@item.Slug" target="_blank">
-                                    <img class="img-responsive imgpad" src="@item.Picture" alt="@item.PictureAlt"  title="@item.PictureTitle"/>
+                                    <img class="img-responsive imgpad" src="~/Upload/@item.Picture" alt="@item.PictureAlt"  title="@item.PictureTitle"/>
                                     <b class="title-3 light-black">@item.Name</b>
                                 </a>
 

@@ -9,11 +9,13 @@ namespace ShopManagement.Application
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
-         readonly IProductCategoryRepository _productCategoryRepository;
+        private readonly IFileUpload _fileUpload;
+        private readonly IProductCategoryRepository _productCategoryRepository;
 
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUpload fileUpload)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUpload = fileUpload;
         }
 
         public OperationResult Create(CreateProductCategory command)
@@ -24,7 +26,10 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.GenerateSlug();
 
-            var productCategory = new ProductCategoryEntity(command.Name, command.Description, command.Picture,
+            var picturePath = $"{command.Slug}";
+            var pictureName = _fileUpload.Upload(command.Picture, picturePath);
+
+            var productCategory = new ProductCategoryEntity(command.Name, command.Description, pictureName,
                 command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
 
             _productCategoryRepository.Create(productCategory);
@@ -42,7 +47,10 @@ namespace ShopManagement.Application
 
             var slug = command.Slug.GenerateSlug();
 
-            productCategory.Edit(command.Name, command.Description, command.Picture,
+            var picturePath = $"{command.Slug}";
+            var pictureName = _fileUpload.Upload(command.Picture, picturePath);
+
+            productCategory.Edit(command.Name, command.Description, pictureName,
                 command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
             _productCategoryRepository.Save();
             return operation.Success();
@@ -55,7 +63,7 @@ namespace ShopManagement.Application
                 Id = x.Id,
                 Name = x.Name,
                 Picture = x.Picture,
-                CreateDate = x.CreateDate.ToString(CultureInfo.InvariantCulture),
+                CreateDate = x.CreateDate.ToFarsi(),
                 ProductCount = 0
             }).ToList();
         }

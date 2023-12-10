@@ -6,5 +6,6 @@ namespace ShopManagement.Domain.ProductCategory
     public interface IProductCategoryRepository : IRepository<int,ProductCategoryEntity>
     {
         EditProductCategory GetDetails(int id);
+        string GetCategorySlugBy(int id);
     }
 }

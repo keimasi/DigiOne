@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using _0_Framwork.Application;
 using _0_Framwork.Infrastructure;
 using ShopManagement.Application.Contracts.Slider;
 using ShopManagement.Domain.Slider;
@@ -20,7 +21,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         {
             return _context.Sliders.Select(x => new EditSlider
             {
-                Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Link = x.Link,
@@ -34,7 +34,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return _context.Sliders.Select(x=>new SliderViewModel
             {
                 Description = x.Description,
-                CreateDate = x.CreateDate.ToString(CultureInfo.InvariantCulture),
+                CreateDate = x.CreateDate.ToFarsi(),
                 IsRemove = x.IsRemove,
                 Id = x.Id,
                 Link = x.Link,

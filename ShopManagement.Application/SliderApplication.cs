@@ -7,17 +7,22 @@ namespace ShopManagement.Application
 {
     public class SliderApplication : ISliderApplication
     {
+        private readonly IFileUpload _fileUpload;
         private readonly ISliderRepository _sliderRepository;
 
-        public SliderApplication(ISliderRepository sliderRepository)
+        public SliderApplication(ISliderRepository sliderRepository, IFileUpload fileUpload)
         {
             _sliderRepository = sliderRepository;
+            _fileUpload = fileUpload;
         }
 
         public OperationResult Create(CreateSlider command)
         {
             var operation = new OperationResult();
-            var slider = new SliderEntity(command.Picture, command.PictureAlt, command.PictureTitle, command.Link, command.Description);
+
+            var pictureName = _fileUpload.Upload(command.Picture,"Sliders");
+
+            var slider = new SliderEntity(pictureName, command.PictureAlt, command.PictureTitle, command.Link, command.Description);
             _sliderRepository.Create(slider);
             _sliderRepository.Save();
             return operation.Success();
@@ -30,7 +35,9 @@ namespace ShopManagement.Application
             if (Slider == null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
 
-            Slider.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Link, command.Description);
+            var pictureName = _fileUpload.Upload(command.Picture,"Sliders");
+
+            Slider.Edit(pictureName, command.PictureAlt, command.PictureTitle, command.Link, command.Description);
             _sliderRepository.Save();
             return operation.Success();
         }

@@ -2,16 +2,21 @@
 using _0_Framwork.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.Product;
+using ShopManagement.Domain.ProductCategory;
 
 namespace ShopManagement.Application
 {
     public class ProductApplication : IProductApplication
     {
+        private readonly IFileUpload _fileUpload;
         private readonly IProductRepository _productRepository;
+        private readonly IProductCategoryRepository _productCategoryRepository;
 
-        public ProductApplication(IProductRepository productRepository)
+        public ProductApplication(IProductRepository productRepository, IFileUpload fileUpload, IProductCategoryRepository productCategoryRepository)
         {
             _productRepository = productRepository;
+            _fileUpload = fileUpload;
+            _productCategoryRepository = productCategoryRepository;
         }
 
         public OperationResult Create(CreateProduct command)
@@ -21,8 +26,13 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessage.DuplicatedRecord);
 
             var slug = command.Slug.GenerateSlug();
+
+            var categorySlug = _productCategoryRepository.GetCategorySlugBy(command.CategoryId);
+            var picturePath = $"{categorySlug}/{slug}";
+            var pictureName = _fileUpload.Upload(command.Picture, picturePath);
+
             var product = new ProductEntity(command.Name, command.Code, command.ShortDescription, command.Description,
-                command.Picture, command.PictureAlt, command.PictureTitle, slug,
+                pictureName, command.PictureAlt, command.PictureTitle, slug,
                 command.Keywords, command.MetaDescription, command.CategoryId);
 
             _productRepository.Create(product);
@@ -34,7 +44,7 @@ namespace ShopManagement.Application
         public OperationResult Edit(EditProduct command)
         {
             var operation = new OperationResult();
-            var product = _productRepository.Get(command.Id);
+            var product = _productRepository.GetProductWithCategoryBy(command.Id);
 
             if (product == null)
                 return operation.Failed(ApplicationMessage.RecordNotFound);
@@ -43,8 +53,12 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessage.DuplicatedRecord);
 
             var slug = command.Slug.GenerateSlug();
+
+            var picturePath = $"{product.Category.Slug}/{slug}";
+            var pictureName = _fileUpload.Upload(command.Picture, picturePath);
+
             product.Edit(command.Name, command.Code, command.ShortDescription, command.Description,
-                command.Picture, command.PictureAlt, command.PictureTitle, slug,
+                pictureName, command.PictureAlt, command.PictureTitle, slug,
                 command.Keywords, command.MetaDescription, command.CategoryId);
 
             _productRepository.Save();

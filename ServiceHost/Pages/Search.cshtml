@@ -244,7 +244,7 @@
                                                     <i class="fa fa fa-cart-arrow-down search_icon_cart" aria-hidden="true"></i>
                                                 </span>
                                             </div>
-                                            <a class="product-box-img" href="single-product.html">
+                                            <a class="product-box-img" asp-page="/Product" asp-route-id="@item.Slug">
                                                 <img src="@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle">
                                                 <ul>
                                                     <li class="color_pro"
@@ -258,7 +258,7 @@
                                             <div class="product-box-content">
                                                 <div class="product-box-content-row">
                                                     <div class="product_title">
-                                                        <a href="#">
+                                                        <a asp-page="/Product" asp-route-id="@item.Slug">
                                                             @item.Name
                                                         </a>
                                                     </div>

@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using _0_Framwork.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.Product;
 
 namespace ShopManagement.Application.Contracts.ProductPicture
 {
     public class CreateProductPicture
     {
-        [Required(ErrorMessage = ValidationMessage.IsRequired)]
-        public string Picture { get; set; }
+        [FileSize(3,ErrorMessage = ValidationMessage.MaxFileSize)]
+        public IFormFile Picture { get; set; }
 
         [Required(ErrorMessage = ValidationMessage.IsRequired)]
         public string PictureAlt { get; set; }

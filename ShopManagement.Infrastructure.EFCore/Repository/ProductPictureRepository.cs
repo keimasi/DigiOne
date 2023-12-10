@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using _0_Framwork.Application;
 using _0_Framwork.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductPicture;
@@ -24,7 +25,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 PictureTitle = x.PictureTitle,
                 PictureAlt = x.PictureAlt,
-                Picture = x.Picture,
                 ProductId = x.ProductId,
             }).FirstOrDefault(x => x.Id == id);
         }
@@ -36,9 +36,15 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Product = x.Product.Name,
                 Picture = x.Picture,
-                CreateDate = x.CreateDate.ToString(CultureInfo.InvariantCulture),
+                CreateDate = x.CreateDate.ToFarsi(),
                 IsRemoved = x.IsRemove
             }).ToList();
+        }
+
+        public ProductPictureEntity GetWithProductANDCategory(int id)
+        {
+            return _context.ProductPictures.Include(x => x.Product).ThenInclude(x => x.Category)
+                .FirstOrDefault(x => x.Id == id);
         }
     }
 }

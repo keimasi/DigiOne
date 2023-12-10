@@ -21,13 +21,18 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Name = x.Name,
                 Description = x.Description,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
                 Slug = x.Slug,
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public string GetCategorySlugBy(int id)
+        {
+            return _context.productCategories.Select(x=>new{x.Id,x.Slug}).FirstOrDefault(x => x.Id == id).Slug;
         }
     }
 }

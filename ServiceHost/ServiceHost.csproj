@@ -18,4 +18,8 @@
     <ProjectReference Include="..\ShopManagement.Infrastructure.Config\ShopManagement.Infrastructure.Config.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Upload\" />
+  </ItemGroup>
+
 </Project>

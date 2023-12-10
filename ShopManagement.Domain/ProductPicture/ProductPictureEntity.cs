@@ -23,7 +23,9 @@ namespace ShopManagement.Domain.ProductPicture
 
         public void Edit(string picture, string pictureAlt, string pictureTitle, int productId)
         {
-            Picture = picture;
+            if(!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             ProductId = productId;

@@ -8,5 +8,6 @@ namespace ShopManagement.Domain.Product
     { 
         EditProduct GetDetails(int id);
         List<ProductViewModel> GetProducts();
+        ProductEntity GetProductWithCategoryBy(int id);
     }
 }

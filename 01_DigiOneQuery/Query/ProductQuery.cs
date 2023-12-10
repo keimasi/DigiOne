@@ -69,5 +69,58 @@ namespace _01_DigiOneQuery.Query
             }
             return products;
         }
+
+        public ProductQueryModel GetProduct(string slug)
+        {
+            var inventory = _inventoryContext.Inventory.Select(x => new { x.UnitPrice, x.ProductId, x.InStock }).ToList();
+
+            var discounts = _discountContext.CustomerDiscounts
+                .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+                .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
+
+            var product = _shopContext.Products
+                .Include(x => x.Category)
+                .Select(x => new ProductQueryModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Category = x.Category.Name,
+                    CategorySlug = x.Category.Slug,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    Slug = x.Slug,
+                    ShortDescription = x.ShortDescription,
+                    Description = x.Description,
+                    Keywords = x.Keywords,
+                    MetaDescription = x.MetaDescription,
+                }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
+
+            if (product == null)
+                return new ProductQueryModel();
+
+            var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
+            if (productInventory != null)
+            {
+                product.IsInStock = productInventory.InStock;
+
+                var price = productInventory.UnitPrice;
+                product.Price = price.ToMoney();
+
+                var productDiscount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
+                if (productDiscount != null)
+                {
+                    int discountRate = productDiscount.DiscountRate;
+                    product.DiscountRate = discountRate;
+
+                    product.DiscountExpireDate = productDiscount.EndDate.ToDiscountFormat();
+                    product.HasDiscount = discountRate > 0;
+                    var discountAmount = Math.Round((price * discountRate) / 100);
+                    product.PriceAfterDiscount = (price - discountAmount).ToMoney();
+                }
+            }
+
+            return product;
+        }
     }
 }
