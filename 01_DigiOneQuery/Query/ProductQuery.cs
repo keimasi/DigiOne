@@ -6,6 +6,7 @@ using _01_DigiOneQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.Comment;
 using ShopManagement.Domain.ProductPicture;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -97,6 +98,7 @@ namespace _01_DigiOneQuery.Query
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
                     Pictures = MapProductPictures(x.ProductPicture),
+                    Comments = MapComments(x.Comments)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
             if (product == null)
@@ -122,6 +124,16 @@ namespace _01_DigiOneQuery.Query
             }
 
             return product;
+        }
+
+        private static List<CommentQueryModel> MapComments(List<CommentEntity> Comments)
+        {
+            return Comments.Where(x => x.CommentStatus).Select(x => new CommentQueryModel
+            {
+                Name = x.Name,
+                CreateDate = x.CreateDate.ToFarsi(),
+                Message = x.Message,
+            }).ToList();
         }
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPictureEntity> ProductPicture)

@@ -7088,6 +7088,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-گلکسی-s23-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت-ویتنام\2023-12-10-23-15-10-77d77f835ba169b4a488bbe3b8a7af84d209761b_1681800774.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-گلکسی-s23-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت-ویتنام\2023-12-11-21-55-53-837eb5a9e3c837410df0b3ed2fccc572dd29d207_1681800855.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-گلکسی-s23-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت-ویتنام\2023-12-11-21-55-53-837eb5a9e3c837410df0b3ed2fccc572dd29d207_1681800855.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-گلکسی-s23-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت-ویتنام\2023-12-11-21-55-53-837eb5a9e3c837410df0b3ed2fccc572dd29d207_1681800855.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-هوآوی-مدل-p60-pro-دو-سیم-کارت-ظرفیت-512-گیگابایت-و-رم-12-گیگابایت\2023-12-10-18-12-21-ea2fee45c363c11a03c495a2bae26ef79c30cbf5_1686468552.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>

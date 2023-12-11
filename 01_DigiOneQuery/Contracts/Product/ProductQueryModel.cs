@@ -22,5 +22,6 @@ namespace _01_DigiOneQuery.Contracts.Product
         public string DiscountExpireDate { get; set; }
         public bool HasDiscount { get; set; }
         public List<ProductPictureQueryModel> Pictures { get; set; }
+        public List<CommentQueryModel> Comments { get; set; }
     }
 }

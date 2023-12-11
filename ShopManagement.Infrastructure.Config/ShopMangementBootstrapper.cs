@@ -5,10 +5,12 @@ using _01_DigiOneQuery.Query;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
+using ShopManagement.Application.Contracts.Comment;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Application.Contracts.Slider;
+using ShopManagement.Domain.Comment;
 using ShopManagement.Domain.Product;
 using ShopManagement.Domain.ProductCategory;
 using ShopManagement.Domain.ProductPicture;
@@ -33,6 +35,9 @@ namespace ShopManagement.Infrastructure.Config
 
             services.AddTransient<ISliderApplication, SliderApplication>();
             services.AddTransient<ISliderRepository, SliderRepository>();
+
+            services.AddTransient<ICommentApplication, CommentApplication>();
+            services.AddTransient<ICommentRepository, CommentRepository>();
 
             services.AddTransient<ISliderQuery, SliderQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();

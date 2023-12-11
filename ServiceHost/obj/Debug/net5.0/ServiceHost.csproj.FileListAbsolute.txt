@@ -219,3 +219,4 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\Microsoft.Extensio
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Commnet\Index.cshtml.g.cs
