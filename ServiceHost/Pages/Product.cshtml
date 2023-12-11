@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @model ServiceHost.Pages.ProductModel
 @{
 }
@@ -10,7 +10,8 @@
                 <nav>
                     <ul class="breadcrumb">
                         <li>
-                            <i class="fa fa-home" aria-hidden="true"></i>
+
+                            <a asp-page="/Index" aria-hidden="true"><i class="fa fa-home" aria-hidden="true"></i></a>
                         </li>
 
                         <li>
@@ -33,11 +34,10 @@
                                 <section class="testimonial py-3" id="testimonial">
                                     <div class="container">
                                         <div class="row gallery">
-                                            <div class="col-4 col-md-3 pd"><a href="/Theme/assets/img/product_img/single/1.jpg" rel="prettyPhoto[gallery1]"><img src="/Theme/assets/img/product_img/single/1.jpg" class="img-thumb" alt="نمایشگر همیشه روشن"></a></div>
-                                            <div class="col-4 col-md-3 pd"><a href="/Theme/assets/img/product_img/single/2.jpg" rel="prettyPhoto[gallery1]"><img src="/Theme/assets/img/product_img/single/2.jpg" class="img-thumb" alt="سخت تر از همه"></a></div>
-                                            <div class="col-4 col-md-3 pd"><a href="/Theme/assets/img/product_img/single/3.jpg" rel="prettyPhoto[gallery1]"><img src="/Theme/assets/img/product_img/single/3.jpg" class="img-thumb" alt="یک دوربین در یک کلاس به تنهایی"></a></div>
-                                            <div class="col-4 col-md-3 pd"><a href="/Theme/assets/img/product_img/single/4.jpg" rel="prettyPhoto[gallery1]"><img src="/Theme/assets/img/product_img/single/4.jpg" class="img-thumb" alt="حریم خصوصی"></a></div>
-
+                                            @foreach (var item in Model.Product.Pictures)
+                                            {
+                                                <div class="col-4 col-md-3 pd"><a href="~/Upload/@item.Picture" rel="prettyPhoto[gallery1]"><img src="~/Upload/@item.Picture" class="img-thumb" alt="@item.PictureAlt" title="@item.PictureTitle"></a></div>
+                                            }
                                         </div>
                                     </div>
                                 </section>
@@ -312,3 +312,36 @@
         </div>
     </div>
 </main>
+
+@section Css
+    {
+    <link href="~/Theme/assets/css/nouislider.min.css" rel="stylesheet" />
+    <link href="~/Theme/assets/css/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet" />
+}
+
+@section Script
+    {
+    <script src="~/Theme/assets/js/core/jquery.min.js"></script>
+    <script src="~/Theme/assets/js/plugins/jquery.ez-plus.js" type="text/javascript"></script>
+    <script src="~/Theme/assets/css/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+    <script>
+        function copyElementText(id) {
+            var text = document.getElementById(id).innerText;
+            var elem = document.createElement("textarea");
+            document.body.appendChild(elem);
+            elem.value = text;
+            elem.select();
+            document.execCommand("copy");
+            document.body.removeChild(elem);
+        }
+    </script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function () {
+            $("area[rel^='prettyPhoto']").prettyPhoto();
+
+            $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({ animation_speed: 'normal', theme: 'light_square', slideshow: 3000, autoplay_slideshow: false });
+            $(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({ animation_speed: 'fast', slideshow: 10000, hideflash: true });
+
+        });
+    </script>
+}

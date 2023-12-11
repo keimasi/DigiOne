@@ -6,6 +6,7 @@ using _01_DigiOneQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ProductPicture;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace _01_DigiOneQuery.Query
@@ -72,7 +73,7 @@ namespace _01_DigiOneQuery.Query
 
         public ProductQueryModel GetProduct(string slug)
         {
-            var inventory = _inventoryContext.Inventory.Select(x => new { x.UnitPrice, x.ProductId, x.InStock }).ToList();
+            var inventory = _inventoryContext.Inventory.Select(x => new { x.UnitPrice, x.ProductId }).ToList();
 
             var discounts = _discountContext.CustomerDiscounts
                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
@@ -80,6 +81,7 @@ namespace _01_DigiOneQuery.Query
 
             var product = _shopContext.Products
                 .Include(x => x.Category)
+                .Include(x => x.ProductPicture)
                 .Select(x => new ProductQueryModel
                 {
                     Id = x.Id,
@@ -94,6 +96,7 @@ namespace _01_DigiOneQuery.Query
                     Description = x.Description,
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
+                    Pictures = MapProductPictures(x.ProductPicture),
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
             if (product == null)
@@ -102,8 +105,6 @@ namespace _01_DigiOneQuery.Query
             var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
             if (productInventory != null)
             {
-                product.IsInStock = productInventory.InStock;
-
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
 
@@ -121,6 +122,18 @@ namespace _01_DigiOneQuery.Query
             }
 
             return product;
+        }
+
+        private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPictureEntity> ProductPicture)
+        {
+            return ProductPicture.Select(x => new ProductPictureQueryModel
+            {
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle,
+                ProductId = x.ProductId,
+                IsRemove = x.IsRemove
+            }).Where(x => !x.IsRemove).ToList();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace _01_DigiOneQuery.Contracts.Product
+﻿using System.Collections.Generic;
+
+namespace _01_DigiOneQuery.Contracts.Product
 {
     public class ProductQueryModel
     {
@@ -19,6 +21,6 @@
         public int DiscountRate { get; set; }
         public string DiscountExpireDate { get; set; }
         public bool HasDiscount { get; set; }
-        public bool IsInStock { get; set; }
+        public List<ProductPictureQueryModel> Pictures { get; set; }
     }
 }
