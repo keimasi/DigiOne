@@ -53,7 +53,9 @@ namespace _01_DigiOneQuery.Query
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     Slug = x.Slug,
-                    Products = MapProducts(x.Products)
+                    Products = MapProducts(x.Products),
+                    MetaDescription = x.MetaDescription,
+                    Keywords = x.Keywords
                 }).FirstOrDefault(x => x.Slug == slug);
 
             foreach (var item in productCategories.Products)

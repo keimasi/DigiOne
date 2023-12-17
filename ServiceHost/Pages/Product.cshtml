@@ -1,6 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ProductModel
 @{
+    ViewData["Title"] = Model.Product.Name;
+    ViewData["keywords"] = Model.Product.Keywords;
+    ViewData["metaDescription"] = Model.Product.MetaDescription;
 }
 
 <main class="single-product default">
@@ -203,7 +206,7 @@
                                     <div class="tab-pane active" id="desc" role="tabpanel" aria-expanded="true">
 
                                         <header class="card-header">
-                                            <h3 class="card-title"><span>برسی @Model.Product.Name</span></h3>
+                                            <h2 class="card-title"><span>برسی @Model.Product.Name</span></h2>
                                         </header>
                                         <div class="parent-expert default">
                                             <div class="content-expert">

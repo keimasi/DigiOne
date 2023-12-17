@@ -7,6 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Infrastructure.Config;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 
 namespace ServiceHost
 {
@@ -27,6 +29,7 @@ namespace ServiceHost
             DiscountMangementBootstrapper.Configure(services,connectionString);
             InventoryMangementBootstrapper.Configure(services,connectionString);
 
+            services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
             services.AddTransient<IFileUpload, FileUpload>();
             services.AddRazorPages();
         }
