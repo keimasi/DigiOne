@@ -1,0 +1,16 @@
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\bin\Debug\net5.0\AccountManagement.Application.Contracts.deps.json
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\bin\Debug\net5.0\0_Framwork.dll
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\bin\Debug\net5.0\0_Framwork.pdb
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.sourcelink.json
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.csproj.CopyComplete
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\refint\AccountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application.Contracts\obj\Debug\net5.0\ref\AccountManagement.Application.Contracts.dll

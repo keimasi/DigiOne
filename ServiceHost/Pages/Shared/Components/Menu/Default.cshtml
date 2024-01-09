@@ -1,4 +1,6 @@
-﻿@model List<_01_DigiOneQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
+﻿@using _0_Framwork.Application
+@model List<_01_DigiOneQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
+@inject IAuthenticationHelper AuthHelper;
 
 <!--start mobile header -->
 <nav class="navbar direction-ltr fixed-top header-responsive">
@@ -90,10 +92,18 @@
             </div>
             <div class="col-md-2 col-sm-12">
                 <div class="user_head">
-                    <a href="login.html" class="iconhead">
-                        <i class="fa fa-user-large font-20" aria-hidden="true"></i>
-                    </a>
-
+                    @if (AuthHelper.IsAuthenticated())
+                    {
+                        <a asp-page="/Login" asp-page-handler="Logout" class="iconhead">
+                            <i class="fa fa-user-circle font-20" aria-hidden="true"></i>
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-page="/Login" class="iconhead">
+                            <i class="fa fa-sign-in-alt font-20" aria-hidden="true"></i>
+                        </a>
+                    }
                 </div>
                 <div class="cart dropdown masai_dropdown">
                     <span class="divider"></span>
@@ -102,54 +112,7 @@
                         <i class="fa fa-cart-arrow-down font-20" aria-hidden="true"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbar_a">
-                        <ul class="m_cart-list">
-                            <li class="m_cart_li1">
-                                <a href="single-product.html" class="m_cart-item">
-                                    <i class="fa fa-times" aria-hidden="true"></i>
-
-
-                                    <div class="m_cart-item-content">
-                                        <div class="m_cart-item-image">
-                                            <img src="~/Theme/assets/img/product_img/p_6.jpg" />
-                                        </div>
-                                        <div class="m_cart-item-details">
-                                            <div class="m_cart-item-title">
-                                                ساعت هوشمند امیزفیت
-                                            </div>
-                                            <div class="m_cart-item-params">
-                                                <div class="m_cart-item-props">
-                                                    <span>تعداد : 2</span>
-                                                    <span>رنگ: سبز ارتشی</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="m_cart_li2">
-                                <a href="single-product.html" class="m_cart-item">
-                                    <i class="fa fa-times" aria-hidden="true"></i>
-
-
-                                    <div class="m_cart-item-content">
-
-                                        <div class="m_cart-item-details">
-                                            <div class="m_cart-item-title">
-                                                شیائومی مدل Poco X4
-                                            </div>
-                                            <div class="m_cart-item-params">
-                                                <div class="m_cart-item-props">
-                                                    <span>تعداد : 1</span>
-                                                    <span>رنگ: مشکی</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="m_cart-item-image">
-                                            <img src="~/Theme/assets/img/product_img/p_9.jpg" />
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
+                        <ul class="m_cart-list" id="cart_item_list">
                         </ul>
                         <div class="m_cart-header">
                             <div class="m_cart-total">
@@ -159,7 +122,7 @@
                             </div>
                         </div>
                         <div class="btn_cart">
-                            <a href="cart.html" class="btn btn_sabad">مشاهده سبد</a>
+                            <a asp-page="/Cart" class="btn btn_sabad">مشاهده سبد</a>
                             <a href="Final-payment.html" class="btn btn_pardakht btn-main-masai">پرداخت</a>
                         </div>
                     </div>

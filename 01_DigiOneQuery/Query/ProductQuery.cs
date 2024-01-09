@@ -6,6 +6,7 @@ using _01_DigiOneQuery.Contracts.Product;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.Comment;
 using ShopManagement.Domain.ProductPicture;
 using ShopManagement.Infrastructure.EFCore;
@@ -124,6 +125,21 @@ namespace _01_DigiOneQuery.Query
             }
 
             return product;
+        }
+
+        public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
+        {
+            var inventory = _inventoryContext.Inventory.ToList();
+
+            foreach (var item in cartItems.Where(q => inventory.Any(x => x.ProductId == q.Id && x.InStock)))
+            {
+                var itemInventory = inventory.Find(x => x.ProductId == item.Id);
+
+                if (itemInventory != null)
+                    item.IsInStock = itemInventory.CalculationCurrentCount() >= item.Count;
+            }
+
+            return cartItems;
         }
 
         private static List<CommentQueryModel> MapComments(List<CommentEntity> Comments)

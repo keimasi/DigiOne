@@ -1,0 +1,21 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Account.Role.CreateModel
+
+
+<div class="card text-justify">
+    <div class="body">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Command.Name" class="control-label">نام نقش</label>
+                        <input type="text" class="form-control" asp-for="Command.Name">
+                        <span asp-validation-for="Command.Name" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <a asp-page="Index" type="button" class="btn btn-default waves-effect">بازگشت</a>
+            <button type="submit" class="btn btn-primary waves-effect waves-light">ایجاد</button>
+        </form>
+    </div>
+</div>

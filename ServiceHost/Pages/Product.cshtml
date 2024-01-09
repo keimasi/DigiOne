@@ -145,8 +145,7 @@
                                                     }
                                                 </div>
                                                 <div class="col-12 timer-title text--center">
-
-                                                    <a href="#" class="btn btn-main-masai big_btn">افزودن به سبد</a>
+                                                    <a onclick="addToCart('@Model.Product.Id','@Model.Product.Name','@Model.Product.Price','@Model.Product.Picture')" class="btn btn-main-masai big_btn">افزودن به سبد</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -315,7 +314,7 @@
 
 @section Script
     {
-    <script src="~/Theme/assets/js/core/jquery.min.js"></script>
+    @*     <script src="~/Theme/assets/js/core/jquery.min.js"></script> *@
     <script src="~/Theme/assets/js/plugins/jquery.ez-plus.js" type="text/javascript"></script>
     <script src="~/Theme/assets/css/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
     <script>

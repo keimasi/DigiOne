@@ -1,0 +1,46 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Account.Role.EditModel
+
+<div class="card text-justify">
+    <div class="body">
+        <form method="post">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Command.Name" class="control-label">نام نقش</label>
+                        <input type="text" class="form-control" asp-for="Command.Name">
+                        <span asp-validation-for="Command.Name" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="control-label col-md-3">انتخاب دسترسی ها</label>
+                    <div class="col-md-12">
+                        <select asp-items="Model.Permissions" asp-for="Command.Permissions" id="optgroup" class="ms" multiple="multiple">
+
+                        </select>
+                    </div>
+                </div>
+
+                <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id"/>
+
+            </div>
+            <a asp-page="Index" type="button" class="btn btn-default waves-effect">بازگشت</a>
+            <button type="submit" class="btn btn-warning waves-effect waves-light">ویرایش</button>
+        </form>
+    </div>
+</div>
+
+@section Css
+{
+    <link href="~/AdminTheme/assets/plugins/multi-select/css/multi-select.css" rel="stylesheet" type="text/css" />
+}
+
+@section Script
+{
+    <script src="~/AdminTheme/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
+    <script src="~/AdminTheme/assets/plugins/multi-select/js/jquery.multi-select.js"></script>
+    <script src="~/AdminTheme/assets/js/pages/forms/advanced-form-elements.js"></script> 
+}

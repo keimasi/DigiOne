@@ -1,4 +1,5 @@
 ﻿@page
+@using ShopManagement.Infrastructure.Config.Permissions
 @model ServiceHost.Areas.Administrator.Pages.Shop.Product.IndexModel
 @{
     ViewData["Title"] = "محصولات";
@@ -7,11 +8,11 @@
 <div class="container-fluid">
     <div class="row clearfix">
         <div class="col-lg-12">
-            <a class="btn btn-primary text-white float-left" href="#showmodal=@Url.Page("./Index","Create")">ایجاد محصول<i class="zmdi zmdi-plus"></i></a>
+            <a class="btn btn-primary text-white float-left" permission="@ShopPermissions.CreateProduct" href="#showmodal=@Url.Page("./Index","Create")">ایجاد محصول<i class="zmdi zmdi-plus"></i></a>
             <div class="card">
                 <div class="body">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped table-hover js-basic-example dataTable text-center">
+                        <table permission="@ShopPermissions.ListProduct" class="table table-bordered table-striped table-hover js-basic-example dataTable text-center">
                             <thead>
                                 <tr>
                                     <th>شناسه</th>
@@ -47,7 +48,7 @@
                                         <td>@item.CategoryName</td>
                                         <td>@item.CreateDate</td>
                                         <td>
-                                            <a class="btn btn-warning btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
+                                            <a permission="@ShopPermissions.EditProduct" class="btn btn-warning btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
                                                 ویرایش
                                             </a>
                                         </td>

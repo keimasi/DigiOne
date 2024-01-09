@@ -1,0 +1,68 @@
+﻿@model AccountManagement.Application.Contracts.Account.CreateAccount
+@{
+}
+
+<div class="modal-header">
+    <h4 class="title" id="largeModalLabel">ایجاد کاربر</h4>
+</div>
+
+<form asp-page="./Index" asp-page-handler="Create" method="post" data-ajax="true" data-callback="" data-action="Refresh" enctype="multipart/form-data">
+    <div class="modal-body">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="FullName" class="control-label">نام و نام خانوداگی</label>
+                    <input type="text" class="form-control" asp-for="FullName">
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="RoleId" class="control-label">نقش کاربر</label>
+                    <select class="form-control" asp-for="RoleId" asp-items='new SelectList(Model.Roles,"Id","Name")'>
+                        <option value="0">انتخاب کنید</option>
+                    </select>
+                    <span asp-validation-for="RoleId" class="text-danger"></span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label">نام کاربری</label>
+                    <input type="text" class="form-control" asp-for="UserName">
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label">گذرواژه</label>
+                    <input type="text" class="form-control" asp-for="Password">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Mobile" class="control-label">شماره موبایل</label>
+                    <input type="text" class="form-control" asp-for="Mobile">
+                    <span asp-validation-for="Mobile" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-primary waves-effect waves-light">ایجاد</button>
+    </div>
+</form>

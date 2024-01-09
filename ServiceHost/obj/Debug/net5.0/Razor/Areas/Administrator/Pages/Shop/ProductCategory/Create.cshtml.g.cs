@@ -27,7 +27,7 @@ using ShopManagement.Application.Contracts.ProductCategory;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"3beed7f4da57c33a802a1a9c2700841da8991a02ce4619afc472fad8b7845acb", @"/Areas/Administrator/Pages/Shop/ProductCategory/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administrator_Pages_Shop_ProductCategory_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CreateProductCategory>
     #nullable disable

@@ -1,4 +1,5 @@
 ﻿@page
+@using InventoryManagement.Infrastructure.Config.Permissions
 @model ServiceHost.Areas.Administrator.Pages.inventory.IndexModel
 @{
     ViewData["Title"] = "مدیریت انبار";
@@ -7,11 +8,11 @@
 <div class="container-fluid">
     <div class="row clearfix">
         <div class="col-lg-12">
-            <a class="btn btn-primary text-white float-left" href="#showmodal=@Url.Page("./Index","Create")">ایجاد انبار<i class="zmdi zmdi-plus"></i></a>
+            <a class="btn btn-primary text-white float-left" permission="@InventoryPermissions.CreateInventory" href="#showmodal=@Url.Page("./Index","Create")">ایجاد انبار<i class="zmdi zmdi-plus"></i></a>
             <div class="card">
                 <div class="body">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped table-hover js-basic-example dataTable text-center">
+                        <table permission="@InventoryPermissions.ListInventory" class="table table-bordered table-striped table-hover js-basic-example dataTable text-center">
                             <thead>
                                 <tr>
                                     <th>شناسه</th>
@@ -54,19 +55,19 @@
                                         <td>@item.CurrentCount</td>
                                         <td>@item.CreateDate</td>
                                         <td>
-                                            <a class="btn btn-warning btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
+                                            <a permission="@InventoryPermissions.EditInventory" class="btn btn-warning btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
                                                 ویرایش
                                             </a>
 
-                                            <a class="btn btn-success btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Increase",new {id=item.Id})">
+                                            <a permission="@InventoryPermissions.Increase" class="btn btn-success btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Increase",new {id=item.Id})">
                                                 افزایش موجودی
                                             </a>
 
-                                            <a class="btn btn-danger btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Decrease",new {id=item.Id})">
+                                            <a permission="@InventoryPermissions.Decrease" class="btn btn-danger btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Decrease",new {id=item.Id})">
                                                 کاهش موجودی
                                             </a>
 
-                                            <a class="btn btn-primary btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Log",new {id=item.Id})">
+                                            <a permission="@InventoryPermissions.OperationLog" class="btn btn-primary btn-sm btn-round text-white" href="#showmodal=@Url.Page("./Index","Log",new {id=item.Id})">
                                                 مشاهده گردش انبار
                                             </a>
                                         </td>

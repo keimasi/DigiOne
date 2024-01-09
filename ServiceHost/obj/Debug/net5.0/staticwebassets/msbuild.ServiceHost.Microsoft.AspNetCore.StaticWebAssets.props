@@ -3264,6 +3264,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminTheme\assets\plugins\multi-select\js\jquery.multi-select.js))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminTheme\assets\plugins\multi-select\js\jquery.quicksearch.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>AdminTheme\assets\plugins\multi-select\js\jquery.quicksearch.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminTheme\assets\plugins\multi-select\js\jquery.quicksearch.js))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminTheme\assets\plugins\nestable\jquery.nestable.js))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>
@@ -6544,6 +6560,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Theme\assets\js\now-ui-kit.js))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Theme\assets\js\plugins.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>Theme\assets\js\plugins.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Theme\assets\js\plugins.js))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Theme\assets\js\plugins\bootstrap-datepicker.js))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>
@@ -6672,12 +6704,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Theme\assets\js\plugins\owl.carousel.min.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-10-23-28-52-16781944460617.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-27-00-39-09-2023-12-10-23-28-52-16781944460617.webp))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ServiceHost</BasePath>
-      <RelativePath>Upload\Sliders\2023-12-10-23-28-52-16781944460617.jpg</RelativePath>
+      <RelativePath>Upload\Sliders\2023-12-27-00-39-09-2023-12-10-23-28-52-16781944460617.webp</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -6686,14 +6718,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-10-23-28-52-16781944460617.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-27-00-39-09-2023-12-10-23-28-52-16781944460617.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-10-23-29-13-16785213091818.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-27-00-39-25-2023-12-10-23-29-13-16785213091818.webp))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ServiceHost</BasePath>
-      <RelativePath>Upload\Sliders\2023-12-10-23-29-13-16785213091818.jpg</RelativePath>
+      <RelativePath>Upload\Sliders\2023-12-27-00-39-25-2023-12-10-23-29-13-16785213091818.webp</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -6702,14 +6734,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-10-23-29-13-16785213091818.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-27-00-39-25-2023-12-10-23-29-13-16785213091818.webp))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-10-23-29-19-16789575390919.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-27-00-39-42-2023-12-10-23-29-19-16789575390919.webp))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ServiceHost</BasePath>
-      <RelativePath>Upload\Sliders\2023-12-10-23-29-19-16789575390919.jpg</RelativePath>
+      <RelativePath>Upload\Sliders\2023-12-27-00-39-42-2023-12-10-23-29-19-16789575390919.webp</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -6718,7 +6750,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-10-23-29-19-16789575390919.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\Sliders\2023-12-27-00-39-42-2023-12-10-23-29-19-16789575390919.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\تبلت\2023-12-10-16-22-07-img-3.png))">
       <SourceType>Package</SourceType>
@@ -7007,6 +7039,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2023-12-10-18-03-16-40026b18c2b053ac4a68c3288556dc899a77aecd_1677587738.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-43-54-1a76bfc3c97d11658f8ab3000f707a7d26b152f7_1688203766.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-43-54-1a76bfc3c97d11658f8ab3000f707a7d26b152f7_1688203766.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-43-54-1a76bfc3c97d11658f8ab3000f707a7d26b152f7_1688203766.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-44-16-51e3f2d1c306a1ba1102aa4198e27a20e8bbe35f_1688804277.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-44-16-51e3f2d1c306a1ba1102aa4198e27a20e8bbe35f_1688804277.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-44-16-51e3f2d1c306a1ba1102aa4198e27a20e8bbe35f_1688804277.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-44-41-48519c4a459551af4cbdbba90b6063de75148670_1692430867.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-44-41-48519c4a459551af4cbdbba90b6063de75148670_1692430867.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-44-41-48519c4a459551af4cbdbba90b6063de75148670_1692430867.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-45-02-a3cc43cd6bde5657eadc9205c321adef97478551_1692430864.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-45-02-a3cc43cd6bde5657eadc9205c321adef97478551_1692430864.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-45-02-a3cc43cd6bde5657eadc9205c321adef97478551_1692430864.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-گلکسی-s23-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت-ویتنام\2023-12-10-17-28-19-610a7384d0bc6323f274b0962ff8a5b33cfa3a1a_1681800767.jpg))">
       <SourceType>Package</SourceType>

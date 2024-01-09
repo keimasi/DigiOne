@@ -1,4 +1,5 @@
-﻿using _01_DigiOneQuery.Contracts.Product;
+﻿using _0_Framwork.Infrastructure;
+using _01_DigiOneQuery.Contracts.Product;
 using _01_DigiOneQuery.Contracts.ProductCategory;
 using _01_DigiOneQuery.Contracts.Slider;
 using _01_DigiOneQuery.Query;
@@ -15,6 +16,7 @@ using ShopManagement.Domain.Product;
 using ShopManagement.Domain.ProductCategory;
 using ShopManagement.Domain.ProductPicture;
 using ShopManagement.Domain.Slider;
+using ShopManagement.Infrastructure.Config.Permissions;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 
@@ -42,6 +44,8 @@ namespace ShopManagement.Infrastructure.Config
             services.AddTransient<ISliderQuery, SliderQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
             services.AddTransient<IProductQuery, ProductQuery>();
+
+            services.AddTransient<IpermissionExposer, ShopPermissionExposer>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

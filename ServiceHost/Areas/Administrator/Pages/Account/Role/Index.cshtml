@@ -1,0 +1,68 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Account.Role.IndexModel
+@{
+    ViewData["Title"] = "مدیریت نقش ها";
+}
+
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <a class="btn btn-primary text-white float-left" asp-page="Create">ایجاد نقش<i class="zmdi zmdi-plus"></i></a>
+            <div class="card">
+                <div class="body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover js-basic-example dataTable text-center">
+                            <thead>
+                                <tr>
+                                    <th>شناسه</th>
+                                    <th>نام نقش</th>
+                                    <th>تاریخ ایجاد</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>شناسه</th>
+                                    <th>نام نقش</th>
+                                    <th>تاریخ ایجاد</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                @foreach (var item in Model.RoleViewModels)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Name</td>
+                                        <td>@item.CreateDate</td>
+                                        <td>
+                                            <a class="btn btn-warning btn-sm btn-round text-white" asp-page="Edit" asp-route-id="@item.Id">
+                                                ویرایش
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Css {
+    <link rel="stylesheet" href="~/AdminTheme/assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css">
+}
+
+@section Script{
+    <!-- Jquery DataTable Plugin Js -->
+    <script src="~/AdminTheme/assets/bundles/datatablescripts.bundle.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.flash.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.html5.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.print.min.js"></script>
+    <script src="~/AdminTheme/assets/js/pages/tables/jquery-datatable.js"></script>
+}

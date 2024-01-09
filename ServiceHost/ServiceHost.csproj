@@ -5,14 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Theme\assets\js\custom.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\assets\js\custom.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
       <Assets>all</Assets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Infrastructure.Config\AccountManagement.Infrastructure.Config.csproj" />
     <ProjectReference Include="..\DiscountManagement.Infrastructure.Config\DiscountManagement.Infrastructure.Config.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Config\InventoryManagement.Infrastructure.Config.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure.Config\ShopManagement.Infrastructure.Config.csproj" />
@@ -20,6 +30,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Upload\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Theme\assets\js\custom.js" />
   </ItemGroup>
 
 </Project>
