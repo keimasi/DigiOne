@@ -17,7 +17,7 @@ namespace InventoryManagement.Infrastructure.Config
             services.AddTransient<IInventoryApplication, InventoryApplication>();
             services.AddTransient<IInventoryRepository, InventoryRepository>();
 
-            services.AddTransient<IpermissionExposer, InventoryPermissionsExposer>();
+            services.AddTransient<IPermissionExposer, InventoryPermissionsExposer>();
 
             services.AddDbContext<InventoryContext>(x => x.UseSqlServer(connectionString));
         }

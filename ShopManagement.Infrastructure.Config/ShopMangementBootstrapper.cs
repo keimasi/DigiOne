@@ -1,4 +1,5 @@
 ﻿using _0_Framwork.Infrastructure;
+using _01_DigiOneQuery.Contracts.Order;
 using _01_DigiOneQuery.Contracts.Product;
 using _01_DigiOneQuery.Contracts.ProductCategory;
 using _01_DigiOneQuery.Contracts.Slider;
@@ -45,7 +46,9 @@ namespace ShopManagement.Infrastructure.Config
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
             services.AddTransient<IProductQuery, ProductQuery>();
 
-            services.AddTransient<IpermissionExposer, ShopPermissionExposer>();
+            services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
+
+            services.AddTransient<ICartCalculatorService, CartCalculatorService>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

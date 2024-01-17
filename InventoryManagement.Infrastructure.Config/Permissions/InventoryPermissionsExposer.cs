@@ -3,7 +3,7 @@ using _0_Framwork.Infrastructure;
 
 namespace InventoryManagement.Infrastructure.Config.Permissions
 {
-    public class InventoryPermissionsExposer : IpermissionExposer
+    public class InventoryPermissionsExposer : IPermissionExposer
     {
         public Dictionary<string, List<PermissionDto>> Expose()
         {

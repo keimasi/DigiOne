@@ -242,7 +242,7 @@
                                                 </span>
 
                                                 <span class="search_prod_btn">
-                                                    <i class="fa fa fa-cart-arrow-down search_icon_cart" aria-hidden="true"></i>
+                                                    <a onclick="addToCart('@item.Id','@item.Name','@item.Price','@item.Picture')"><i class="fa fa fa-cart-arrow-down search_icon_cart" aria-hidden="true"></i></a>
                                                 </span>
                                             </div>
                                             <a class="product-box-img" asp-page="/Product" asp-route-id="@item.Slug">

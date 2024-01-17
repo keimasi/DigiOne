@@ -14,9 +14,9 @@ namespace ServiceHost.Areas.Administrator.Pages.Account.Role
         public List<SelectListItem> Permissions = new List<SelectListItem>();
 
         private readonly IRoleApplication _roleApplication;
-        private readonly IEnumerable<IpermissionExposer> _exposer;
+        private readonly IEnumerable<IPermissionExposer> _exposer;
 
-        public EditModel(IRoleApplication roleApplication, IEnumerable<IpermissionExposer> exposer)
+        public EditModel(IRoleApplication roleApplication, IEnumerable<IPermissionExposer> exposer)
         {
             _roleApplication = roleApplication;
             _exposer = exposer;

@@ -3,7 +3,7 @@ using _0_Framwork.Infrastructure;
 
 namespace ShopManagement.Infrastructure.Config.Permissions
 {
-    public class ShopPermissionExposer:IpermissionExposer
+    public class ShopPermissionExposer:IPermissionExposer
     {
         public Dictionary<string, List<PermissionDto>> Expose()
         {

@@ -15,6 +15,7 @@ using AccountManagement.Infrastructure.Config;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using _0_Framwork.Infrastructure;
+using ServiceHost.Pages;
 
 namespace ServiceHost
 {
@@ -95,9 +96,13 @@ namespace ServiceHost
             }
 
             app.UseAuthentication();
+
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
+
             app.UseCookiePolicy();
+
             app.UseRouting();
 
             app.UseAuthorization();

@@ -2811,7 +2811,7 @@ footer.main-footer .copyright {
     -ms-flex-pack: justify;
     justify-content: space-between;
     -ms-flex-positive: 1;
-    flex-grow: 1;
+    gap: 10px;
 }
 
 .product-box-title {
@@ -3497,7 +3497,7 @@ footer.main-footer .copyright {
     align-items: stretch;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     direction: rtl;
 }
 
@@ -3516,7 +3516,6 @@ footer.main-footer .copyright {
 
     .cart_details .table_details {
         font-size: 15px;
-        text-align: center
     }
 
         .cart_details .table_details td {
@@ -3589,11 +3588,11 @@ footer.main-footer .copyright {
     .cart_item td {
         position: relative;
         vertical-align: middle;
-        text-align: right
+        text-align: center;
     }
 
         .cart_item td img {
-            width: 140px;
+            width: 120px;
             border-radius: 15px
         }
 
@@ -3629,9 +3628,8 @@ footer.main-footer .copyright {
 }
 
 .cart_title {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.88;
-    margin-bottom: 15px;
 }
 /*cart.html end*/
 
@@ -3825,10 +3823,6 @@ footer.main-footer .copyright {
     background-color: #D4EDEF;
 }
 /*edite-profile.html end*/
-.divider_details {
-    border-right: 1px solid #ccc;
-}
-
 .cart-page .table {
     border: none !important
 }

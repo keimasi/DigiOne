@@ -48,7 +48,7 @@ function updateCart() {
                                             <div class="m_cart-item-params">
                                                 <div class="m_cart-item-props">
                                                     <span>تعداد : ${item.count}</span>
-                                                    <span>قیمت : ${item.price}</span>
+                                                    <span>قیمت واحد : ${item.price}</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -71,17 +71,3 @@ function removeCartItem(id) {
     updateCart();
 
 }
-
-//function changeCartItemCount(id, totalPriceId, count) {
-//    debugger;
-//    var products = $.cookie(cookieName);
-//    products = JSON.parse(products);
-
-//    const productItem = products.find(x => x.id == id);
-//    products[productItem].count = count;
-//    const product = products[productItem];
-//    const newPrice = parseInt(product.price) * parseInt(count);
-//    $(`#${totalPriceId}`).text(newPrice);
-//    $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" });
-//    updateCart();
-//}
