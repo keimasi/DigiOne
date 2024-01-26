@@ -1,0 +1,39 @@
+﻿@model List<ShopManagement.Application.Contracts.Order.OrderItemViewModel>
+@{
+}
+
+<div class="modal-header">
+    <h4 class="title" id="largeModalLabel">محصولات سفارش</h4>
+</div>
+
+<div class="modal-body">
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover js-basic-example dataTable text-center">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>نام محصول</th>
+                    <th>تعداد</th>
+                    <th>قیمت واحد</th>
+                    <th>درصد تخفیف</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>#</th>
+                        <td>@item.ProductName</td>
+                        <td>@item.Count</td>
+                        <td>@item.UnitPrice تومان</td>
+                        <td>@item.DiscountRate %</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">بستن</button>
+</div>

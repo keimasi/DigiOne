@@ -1,0 +1,14 @@
+﻿ @page
+@model ServiceHost.Pages.PaymentResultModel
+@{
+}
+
+@if (Model.Result.IsSuccessful)
+{
+    <h3 class="alert alert-success">@Model.Result.Message</h3>
+    <p> شماره پیگیری : @Model.Result.IssueTrackingNo</p>
+}
+else
+{
+    <h3 class="alert alert-danger">@Model.Result.Message</h3>
+}

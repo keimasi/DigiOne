@@ -1,0 +1,109 @@
+﻿@page
+@using _0_Framwork.Application
+@model ServiceHost.Areas.Administrator.Pages.Shop.Order.IndexModel
+@{
+    ViewData["Title"] = "مدیریت سفارشات";
+}
+
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover js-basic-example dataTable text-center">
+                            <thead>
+                                <tr>
+                                    <th>شناسه</th>
+                                    <th>نام خریدار</th>
+                                    <th>جمع سفارشات</th>
+                                    <th>مبلغ تخفیف</th>
+                                    <th>مبلغ پرداخت شده</th>
+                                    <th>شماره پیگیری</th>
+                                    <th>شناسه خرید</th>
+                                    <th>تاریخ خرید</th>
+                                    <th>وضعیت</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>شناسه</th>
+                                    <th>نام خریدار</th>
+                                    <th>جمع سفارشات</th>
+                                    <th>مبلغ تخفیف</th>
+                                    <th>مبلغ پرداخت شده</th>
+                                    <th>شماره پیگیری</th>
+                                    <th>شناسه خرید</th>
+                                    <th>تاریخ خرید</th>
+                                    <th>وضعیت</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                @foreach (var item in Model.OrderList)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.UserFullName</td>
+                                        <td>@item.TotalAmount.ToMoney()</td>
+                                        <td>@item.DiscountAmount.ToMoney()</td>
+                                        <td>@item.PayAmount.ToMoney()</td>
+                                        <td>@item.IssueTracking</td>
+                                        <td>@item.RefId</td>
+                                        <td>@item.CreateDate</td>
+                                        <td>
+                                            @if (item.IsCanceled)
+                                            {
+                                                <span class="text-danger">کنسل شده</span>
+                                            }
+                                            @if (item.IsPaid)
+                                            {
+                                                <span class="text-success">پرداخت شده</span>
+                                            }
+                                            @if(!item.IsCanceled && !item.IsPaid)
+                                            {
+                                                <span class="text-warning">در انتظار پرداخت</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (item.IsPaid == false)
+                                            {
+                                                <a class="btn btn-success pull-right m-rl-5" asp-page-handler="Confirm" asp-route-id="@item.Id">
+                                                    <i class="fa fa-check"></i> تایید
+                                                </a>
+                                                <a class="btn btn-danger pull-right m-rl-5" asp-page-handler="Cancel" asp-route-id="@item.Id">
+                                                    <i class="fa fa-close"></i> لغو
+                                                </a>
+                                            }
+                                            <a class="btn btn-primary pull-right m-rl-5"
+                                               href="#showmodal=@Url.Page("./Index", "Items", new {id = item.Id})">
+                                                <i class="fa fa-id-card"></i> محصولات
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Css {
+    <link rel="stylesheet" href="~/AdminTheme/assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css">
+}
+
+@section Script{
+    <!-- Jquery DataTable Plugin Js -->
+    <script src="~/AdminTheme/assets/bundles/datatablescripts.bundle.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/dataTables.buttons.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.bootstrap4.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.colVis.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.flash.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.html5.min.js"></script>
+    <script src="~/AdminTheme/assets/plugins/jquery-datatable/buttons/buttons.print.min.js"></script>
+    <script src="~/AdminTheme/assets/js/pages/tables/jquery-datatable.js"></script>
+}
