@@ -21,3 +21,9 @@ C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\obj\Debug\
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb

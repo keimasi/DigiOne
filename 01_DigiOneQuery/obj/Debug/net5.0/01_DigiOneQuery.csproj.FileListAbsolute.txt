@@ -32,3 +32,9 @@ C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuer
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\refint\01_DigiOneQuery.dll
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuery.pdb
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\ref\01_DigiOneQuery.dll
+C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\bin\Debug\net5.0\AccountManagement.Domain.pdb
+C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

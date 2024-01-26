@@ -2,6 +2,7 @@
 using System.Linq;
 using _0_Framwork.Application;
 using _0_Framwork.Infrastructure;
+using AccountManagement.Infrastructure.EFCore;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.Inventory;
 using ShopManagement.Infrastructure.EFCore;
@@ -12,11 +13,13 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
     {
         private readonly ShopContext _shopContext;
         private readonly InventoryContext _context;
+        private readonly AccountContext _accountContext;
 
-        public InventoryRepository(InventoryContext context, ShopContext shopContext) : base(context)
+        public InventoryRepository(InventoryContext context, ShopContext shopContext, AccountContext accountContext) : base(context)
         {
             _context = context;
             _shopContext = shopContext;
+            _accountContext = accountContext;
         }
 
 
@@ -52,19 +55,27 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
 
         public List<InventoryOperationViewModel> GetInventoryOperationLog(int inventoryId)
         {
+            var account = _accountContext.Accounts.Select(x => new { x.Id, x.FullName }).ToList();
+
             var inventory = _context.Inventory.FirstOrDefault(x => x.Id == inventoryId);
-            return inventory.OperationInventories.Select(x => new InventoryOperationViewModel
+            var operation = inventory.OperationInventories.Select(x => new InventoryOperationViewModel
             {
                 Id = x.Id,
-                OperatorId = 1,
-                OperatorName = "سهیل",
+                OperatorId = x.OperatorId,
                 OrderId = 0,
                 OperationType = x.OperationType,
                 OperationDate = x.OperationDate.ToFarsi(),
                 CurrentCount = x.CurrentCount,
                 Description = x.Description,
                 Count = x.Count
-            }).OrderByDescending(x=>x.Id).ToList();
+            }).OrderByDescending(x => x.Id).ToList();
+
+            foreach (var item in operation)
+            {
+                item.OperatorName = account.FirstOrDefault(x => x.Id == item.OperatorId).FullName;
+            }
+
+            return operation;
         }
     }
 }

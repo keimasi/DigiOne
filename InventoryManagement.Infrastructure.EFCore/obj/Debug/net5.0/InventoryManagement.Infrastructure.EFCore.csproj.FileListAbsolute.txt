@@ -27,3 +27,9 @@ C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\obj\D
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb

@@ -1,30 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using _0_Framwork.Application;
+using _0_Framwork.Application.ZarinPal;
 using _01_DigiOneQuery.Contracts.Order;
 using _01_DigiOneQuery.Contracts.Product;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Nancy.Json;
-using Newtonsoft.Json;
 using ShopManagement.Application.Contracts.Order;
 
 namespace ServiceHost.Pages
 {
+    [Authorize]
     public class CartModel : PageModel
     {
-        public const string cookieName = "cart-items";
         private readonly IProductQuery _productQuery;
         private readonly ICartCalculatorService _cartCalculatorService;
+        private readonly ICartService _cartService;
+        private readonly IZarinPalFactory _zarinPalFactory;
+        private readonly IOrderApplication _orderApplication;
+
+        public const string cookieName = "cart-items";
         public List<CartItem> CartItems;
         public Cart Cart;
 
-        public CartModel(IProductQuery productQuery, ICartCalculatorService cartCalculatorService)
+        public CartModel(IProductQuery productQuery, ICartCalculatorService cartCalculatorService, ICartService cartService, IZarinPalFactory zarinPalFactory, IOrderApplication orderApplication, IAuthenticationHelper authenticationHelper)
         {
             _productQuery = productQuery;
             _cartCalculatorService = cartCalculatorService;
-            CartItems=new List<CartItem>();
+            _cartService = cartService;
+            _zarinPalFactory = zarinPalFactory;
+            _orderApplication = orderApplication;
+            CartItems = new List<CartItem>();
         }
 
         public void OnGet()
@@ -40,6 +50,7 @@ namespace ServiceHost.Pages
 
             CartItems = _productQuery.CheckInventoryStatus(cartItems);
             Cart = _cartCalculatorService.ComputingCart(cartItems);
+            _cartService.Set(Cart);
         }
 
         public RedirectToPageResult OnGetRemoveCartItem(int id)
@@ -55,19 +66,37 @@ namespace ServiceHost.Pages
             return RedirectToPage("/Cart");
         }
 
-        public RedirectToPageResult OnGetGotoCheckOut()
+        public IActionResult OnGetPay()
         {
-            string cookieValue = Request.Cookies[cookieName];
-            var cartItems = JsonConvert.DeserializeObject<List<CartItem>>(cookieValue);
-            foreach (var item in cartItems)
+            var cart = _cartService.Get();
+            var result = _productQuery.CheckInventoryStatus(cart.Items);
+
+            if (result.Any(x => !x.IsInStock))
+                return RedirectToPage("/Cart");
+
+            var orderId = _orderApplication.PlaceOrder(cart);
+            var paymentResponse = _zarinPalFactory.CreatePaymentRequest(cart.AmountPaid.ToString(), "", "", "خرید از دیجی وان", orderId);
+
+            return Redirect($"https://{_zarinPalFactory.Prefix}.zarinpal.com/pg/StartPay/{paymentResponse.Authority}");
+        }
+
+        public IActionResult OnGetCallBack([FromQuery] string authority, [FromQuery] string status, [FromQuery] int oId)
+        {
+            var orderAmount = _orderApplication.GetAmountBy(oId);
+            var verificationResponse = _zarinPalFactory.CreateVerificationRequest(authority, orderAmount.ToString());
+            var result = new PaymentResult();
+            if (status == "OK" && verificationResponse.Status >= 100)
             {
-                item.Price = item.Price.Replace("٬", "");
-                item.TotalItemPrice = double.Parse(item.Price) * item.Count;
+                var issueTrackingNum = _orderApplication.PaymentSucceeded(oId, verificationResponse.RefID);
+                Response.Cookies.Delete("cart-items");
+                result = result.Succeeded("پرداخت با موفقیت انجام شد", issueTrackingNum);
+                return RedirectToPage("/PaymentResult", result);
             }
-
-            CartItems = _productQuery.CheckInventoryStatus(cartItems);
-
-            return RedirectToPage(CartItems.Any(x => !x.IsInStock) ? "/Cart" : "/Checkout");
+            else
+            {
+                result = result.Failed("پرداخت با خطا مواجه شده است");
+                return RedirectToPage("/PaymentResult", result);
+            }
         }
     }
 }

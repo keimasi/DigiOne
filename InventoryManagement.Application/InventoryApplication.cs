@@ -8,10 +8,12 @@ namespace InventoryManagement.Application
     public class InventoryApplication : IInventoryApplication
     {
         private readonly IInventoryRepository _inventoryRepository;
+        private readonly IAuthenticationHelper _authenticationHelper;
 
-        public InventoryApplication(IInventoryRepository inventoryRepository)
+        public InventoryApplication(IInventoryRepository inventoryRepository, IAuthenticationHelper authenticationHelper)
         {
             _inventoryRepository = inventoryRepository;
+            _authenticationHelper = authenticationHelper;
         }
 
         public OperationResult Create(CreateInventory command)
@@ -67,7 +69,7 @@ namespace InventoryManagement.Application
         public OperationResult Decrease(List<DecreaseInventory> command)
         {
             var operation = new OperationResult();
-            int operatorId = 1;
+            int operatorId = _authenticationHelper.GetCurrentUserId();
 
             foreach (var item in command)
             {

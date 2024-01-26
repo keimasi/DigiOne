@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6it4psNQ6O+oUw2ohAA/i65Y67cYKvnKndlCzL/g4d8k2w40LPvItgOp9NiKsOIRsNn/thWC/CId2p/xqefkYw==",
+  "dgSpecHash": "MOPGCsJ3q+y/NKT0jYR+el6OsmBT+a9bdphHYA98JDUXSUP1HBmzIs+ekSOSiTE7mwcYG3yUJ6wbSrHFSJawCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

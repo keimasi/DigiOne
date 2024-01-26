@@ -11,6 +11,7 @@ using ShopManagement.Infrastructure.Config;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
+using _0_Framwork.Application.ZarinPal;
 using AccountManagement.Infrastructure.Config;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
@@ -43,6 +44,7 @@ namespace ServiceHost
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUpload, FileUpload>();
             services.AddTransient<IAuthenticationHelper, AuthenticationHelper>();
+            services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {

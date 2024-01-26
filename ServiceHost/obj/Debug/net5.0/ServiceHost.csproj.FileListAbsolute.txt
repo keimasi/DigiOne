@@ -247,3 +247,9 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\refint\ServiceHost
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\RestSharp.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Pages\PaymentResult.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.Acl.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.Acl.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Order\Index.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Order\Items.cshtml.g.cs

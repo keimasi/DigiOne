@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0woeEONIK0K+a0PhEy9DNMKqNoS6N1rkAE4KqMfaDZlhUq1tcBBkw3eynY7s6IfsMftsTuruwS8w80YLa/jGsA==",
+  "dgSpecHash": "TtKedVK5x9SHVxpXKJ4Zf22ssR7UimcratxKi5NOFuhxYJyrLnr+Am43IM3gG8+5Zt9FoFoWSs6mKLO4azrb/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

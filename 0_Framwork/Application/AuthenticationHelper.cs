@@ -79,5 +79,10 @@ namespace _0_Framwork.Application
                 ?.Value;
             return JsonConvert.DeserializeObject<List<int>>(permissions);
         }
+
+        public int GetCurrentUserId()
+        {
+            return IsAuthenticated() ? int.Parse(_contextAccessor.HttpContext.User.Claims.First(x=>x.Type=="AccountId")?.Value) : 0;
+        }
     }
 }

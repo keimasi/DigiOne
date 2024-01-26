@@ -9,5 +9,6 @@ namespace _0_Framwork.Application
         bool IsAuthenticated();
         AuthenticationViewModel CurrentUserInfo();
         List<int> GetPermissions();
+        int GetCurrentUserId();
     }
 }
