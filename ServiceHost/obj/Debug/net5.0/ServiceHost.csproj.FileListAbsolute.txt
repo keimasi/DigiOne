@@ -253,3 +253,5 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ShopManagement.Inf
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.Acl.pdb
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Order\Index.cshtml.g.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Order\Items.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.API.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.API.pdb

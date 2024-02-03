@@ -43,12 +43,12 @@ namespace InventoryManagement.Domain.Inventory
             InStock = currentCount > 0;
         }
 
-        public void Decrease(int operatorId, int count, string description,int orderId)
+        public void Decrease(int operatorId, int count, string description, int orderId)
         {
             var currentCount = CalculationCurrentCount() - count;
-            var operation=new OperationInventory(operatorId,orderId,false,currentCount,description,count, Id);
+            var operation = new OperationInventory(operatorId, orderId, false, currentCount, description, count, Id);
             OperationInventories.Add(operation);
-            InStock= currentCount > 0;
+            InStock = currentCount > 0;
         }
     }
 }

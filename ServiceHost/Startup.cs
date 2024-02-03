@@ -16,7 +16,7 @@ using AccountManagement.Infrastructure.Config;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using _0_Framwork.Infrastructure;
-using ServiceHost.Pages;
+using InventoryManagement.Presentation.API;
 
 namespace ServiceHost
 {
@@ -29,7 +29,6 @@ namespace ServiceHost
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpContextAccessor();
@@ -72,7 +71,6 @@ namespace ServiceHost
                     y => y.RequireRole(new List<string> { Roles.Admin }));
             });
 
-
             services.AddRazorPages()
                 .AddMvcOptions(x => x.Filters.Add<PageFilter>())
                 .AddRazorPagesOptions(x =>
@@ -80,10 +78,10 @@ namespace ServiceHost
                     x.Conventions.AuthorizeAreaFolder("Administrator", "/", "AdminArea");
                     x.Conventions.AuthorizeAreaFolder("Administrator", "/Account", "Account");
                     x.Conventions.AuthorizeAreaFolder("Administrator", "/Discounts", "Discounts");
-                });
+                })
+                .AddApplicationPart(typeof(InventoryController).Assembly);
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -93,7 +91,6 @@ namespace ServiceHost
             else
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -112,7 +109,7 @@ namespace ServiceHost
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapDefaultControllerRoute();
+                endpoints.MapControllers();
             });
         }
     }

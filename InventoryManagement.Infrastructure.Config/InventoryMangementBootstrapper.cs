@@ -1,4 +1,6 @@
 ﻿using _0_Framwork.Infrastructure;
+using _01_DigiOneQuery.Contracts.Inventory;
+using _01_DigiOneQuery.Query;
 using InventoryManagement.Application;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.Inventory;
@@ -18,6 +20,8 @@ namespace InventoryManagement.Infrastructure.Config
             services.AddTransient<IInventoryRepository, InventoryRepository>();
 
             services.AddTransient<IPermissionExposer, InventoryPermissionsExposer>();
+
+            services.AddTransient<IInventoryQuery, InventoryQuery>();
 
             services.AddDbContext<InventoryContext>(x => x.UseSqlServer(connectionString));
         }

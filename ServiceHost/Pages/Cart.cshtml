@@ -29,14 +29,16 @@
             <div class="cart_content col-xl-12 col-lg-12 col-md-12">
                 <header class="card-header">
                     <h3 class="card-title"><span>سبد خرید شما</span></h3>
-                    @foreach (var item in Model.CartItems.Where(x => x.IsInStock == false))
-                    {
-                        <div class="alert alert-warning d-flex align-items-center" role="alert">
-                            <span>
-                                کالای <strong>@item.Name</strong> در انبار کمتر از تعداد درخواستی  موجود است.
-                            </span>
-                        </div>
-                    }
+                    <div id="productStockWarnings">
+                        @foreach (var item in Model.CartItems.Where(x => !x.IsInStock))
+                        {
+                            <div class="alert alert-warning text-black-50 text-right w-100" id="@item.Id">
+                                <i class="fa fa-warning"></i> کالای
+                                <strong>@item.Name</strong>
+                                در انبار کمتر از تعداد درخواستی موجود است.
+                            </div>
+                        }
+                    </div>
                 </header>
                 <div class="table-responsive default">
                     <table class="table">
@@ -162,6 +164,38 @@
 
             $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: '/' });
             updateCart();
+
+            var settings = {
+                "url": "https://localhost:44365/api/Inventory",
+                "method": "POST",
+                "timeout": 0,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "data": JSON.stringify({
+                    "count": count,
+                    "ProductId": id
+                }),
+            };
+
+            $.ajax(settings).done(function (data) {
+                if (data.isStock == false) {
+                    const warningsDiv = $('#productStockWarnings');
+                    if ($(`#${id}`).length == 0) {
+                        warningsDiv.append(`
+                                    <div class="alert alert-warning text-black-50 text-right w-100" id="${id}">
+                                <i class="fa fa-warning"></i> کالای
+                                <strong>${data.productName}</strong>
+                                در انبار کمتر از تعداد درخواستی موجود است.
+                            </div>
+                        `);
+                    }
+                } else {
+                    if ($(`#${id}`).length > 0) {
+                        $(`#${id}`).remove();
+                    }
+                }
+            });
         }
 
         function updateElement(elementId, value) {
