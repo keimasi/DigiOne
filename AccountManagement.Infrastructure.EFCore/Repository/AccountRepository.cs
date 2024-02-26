@@ -36,7 +36,7 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
 
         public List<AccountViewModel> GetAccounts()
         {
-            return _context.Accounts.Include(x=>x.Role).Select(x => new AccountViewModel
+            return _context.Accounts.Include(x => x.Role).Select(x => new AccountViewModel
             {
                 Id = x.Id,
                 FullName = x.FullName,
@@ -45,6 +45,11 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
                 RoleName = x.Role.Name,
                 CreateDate = x.CreateDate.ToFarsi()
             }).ToList();
+        }
+
+        public int GetUserOfNumber()
+        {
+            return _context.Accounts.Select(x => new { x.RoleId }).Count(x => x.RoleId == 1 || x.RoleId == 4);
         }
     }
 }

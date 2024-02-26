@@ -17,6 +17,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using _0_Framwork.Infrastructure;
 using InventoryManagement.Presentation.API;
+using ReportManagement.Infrastructure.Config;
 
 namespace ServiceHost
 {
@@ -38,6 +39,7 @@ namespace ServiceHost
             DiscountMangementBootstrapper.Configure(services, connectionString);
             InventoryMangementBootstrapper.Configure(services, connectionString);
             AccountMangementBootstrapper.Configure(services, connectionString);
+            ReportMangementBootstrapper.Configure(services, connectionString);
 
             services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
@@ -105,6 +107,8 @@ namespace ServiceHost
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseMiddleware<VisitMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {

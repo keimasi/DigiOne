@@ -18,7 +18,7 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.Order
 
         public void OnGet()
         {
-            OrderList = _orderApplication.GerOrders();
+            OrderList = _orderApplication.GetOrders();
         }
 
         public IActionResult OnGetConfirm(int id)
@@ -35,7 +35,7 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.Order
 
         public IActionResult OnGetItems(int id)
         {
-            var item = _orderApplication.GerOrderItems(id);
+            var item = _orderApplication.GetOrderItems(id);
             return Partial("Items", item);
         }
     }

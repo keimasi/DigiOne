@@ -7104,6 +7104,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-اپل-مدل-آیفون-13-پرو-مکس-نات-اکتیو-ll-a-تک-سیم-کارت-ظرفیت-256-گیگابایت-رم-6-گیگابایت\2024-01-09-10-45-02-a3cc43cd6bde5657eadc9205c321adef97478551_1692430864.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-galaxy-s24-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت\2024-02-21-00-42-13-color_image_TLP-32719_1a1a1a_290ab624-b24b-44b5-ba94-5d41b1bb5987.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-galaxy-s24-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت\2024-02-21-00-42-13-color_image_TLP-32719_1a1a1a_290ab624-b24b-44b5-ba94-5d41b1bb5987.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-galaxy-s24-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت\2024-02-21-00-42-13-color_image_TLP-32719_1a1a1a_290ab624-b24b-44b5-ba94-5d41b1bb5987.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Upload\گوشی-موبایل\گوشی-موبایل-سامسونگ-گلکسی-s23-ultra-5g-ظرفیت-256-گیگابایت-رم-12-گیگابایت-ویتنام\2023-12-10-17-28-19-610a7384d0bc6323f274b0962ff8a5b33cfa3a1a_1681800767.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>

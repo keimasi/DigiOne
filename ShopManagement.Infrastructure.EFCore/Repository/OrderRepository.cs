@@ -27,7 +27,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return 0;
         }
 
-        public List<OrderVIewModel> GerOrders()
+        public List<OrderVIewModel> GetOrders()
         {
             var account = _accountContext.Accounts.Select(x => new { x.FullName, x.Id }).ToList();
 
@@ -46,18 +46,36 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             }).ToList();
         }
 
-        public List<OrderItemViewModel> GerOrderItems(int orderId)
+        public List<OrderItemViewModel> GetOrderItems(int orderId)
         {
             var productName = _context.Products.Select(x => new { x.Id, x.Name }).ToList();
             var order = _context.Orders.FirstOrDefault(x => x.Id == orderId);
 
             return order.Items.Select(x => new OrderItemViewModel
             {
-                ProductName = productName.FirstOrDefault(y=>y.Id==x.ProductId)?.Name,
+                ProductName = productName.FirstOrDefault(y => y.Id == x.ProductId)?.Name,
                 Count = x.Count,
                 UnitPrice = x.UnitPrice.ToMoney(),
                 DiscountRate = x.DiscountRate
             }).ToList();
+        }
+
+        public string GetTotalSales()
+        {
+            var orders = _context.Orders.Select(x => new { x.IsPaid, x.PayAmount })
+                .Where(x => x.IsPaid == true)
+                .Sum(x => x.PayAmount);
+
+            return orders.ToMoney();
+        }
+
+        public int GetSalesNumber()
+        {
+            var orders = _context.Orders
+                .Select(x => new { x.IsPaid })
+                .Count(x => x.IsPaid == true);
+
+            return orders;
         }
     }
 }

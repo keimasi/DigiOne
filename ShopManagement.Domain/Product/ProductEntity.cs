@@ -18,8 +18,10 @@ namespace ShopManagement.Domain.Product
         public string Slug { get; private set; }
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
+
         public int CategoryId { get; private set; }
         public ProductCategoryEntity Category { get; private set; }
+
         public List<ProductPictureEntity> ProductPicture { get; private set; }
         public List<CommentEntity> Comments { get; private set; }
 

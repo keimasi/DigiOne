@@ -2,7 +2,6 @@
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategory;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 
 namespace ShopManagement.Application

@@ -9,5 +9,6 @@ namespace ShopManagement.Application.Contracts.Product
         OperationResult Edit(EditProduct command);
         EditProduct GetDetails(int id);
         List<ProductViewModel> GetProducts();
+        int GetNumberOfProducts();
     }
 }

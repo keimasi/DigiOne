@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ShopManagement.Domain.Comment;
 

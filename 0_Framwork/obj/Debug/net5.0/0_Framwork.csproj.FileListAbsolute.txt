@@ -11,3 +11,16 @@ C:\Users\Alireza\Desktop\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.dll
 C:\Users\Alireza\Desktop\DigiOne\0_Framwork\obj\Debug\net5.0\refint\0_Framwork.dll
 C:\Users\Alireza\Desktop\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.pdb
 C:\Users\Alireza\Desktop\DigiOne\0_Framwork\obj\Debug\net5.0\ref\0_Framwork.dll
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\bin\Debug\net5.0\0_Framwork.deps.json
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\bin\Debug\net5.0\0_Framwork.dll
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\bin\Debug\net5.0\0_Framwork.pdb
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.csproj.AssemblyReference.cache
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.AssemblyInfoInputs.cache
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.AssemblyInfo.cs
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.csproj.CoreCompileInputs.cache
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.sourcelink.json
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.dll
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\refint\0_Framwork.dll
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\0_Framwork.pdb
+D:\Project\Web Project\Website\ASP.NET CORE\DigiOne\0_Framwork\obj\Debug\net5.0\ref\0_Framwork.dll

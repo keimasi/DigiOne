@@ -9,5 +9,6 @@ namespace AccountManagement.Domain.Account
         EditAccount GetDetails(int id);
         AccountEntity GetBy(string username);
         List<AccountViewModel> GetAccounts();
+        int GetUserOfNumber();
     }
 }

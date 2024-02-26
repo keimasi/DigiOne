@@ -255,3 +255,13 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admini
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\Shop\Order\Items.cshtml.g.cs
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.API.dll
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\InventoryManagement.Presentation.API.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Application.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagment.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Infrastructure.Config.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Application.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagement.Infrastructure.EFCore.pdb
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\bin\Debug\net5.0\ReportManagment.Domain.pdb

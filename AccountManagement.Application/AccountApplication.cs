@@ -108,5 +108,10 @@ namespace AccountManagement.Application
         {
             return _accountRepository.GetAccounts();
         }
+
+        public int GetUserOfNumber()
+        {
+            return _accountRepository.GetUserOfNumber();
+        }
     }
 }

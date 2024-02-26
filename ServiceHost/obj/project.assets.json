@@ -3876,6 +3876,74 @@
           "bin/placeholder/InventoryManagement.Presentation.API.dll": {}
         }
       },
+      "ReportManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ReportManagement.Application.Contracts": "1.0.0",
+          "ReportManagment.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportManagement.Application.dll": {}
+        }
+      },
+      "ReportManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ReportManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportManagement.Application.Contracts.dll": {}
+        }
+      },
+      "ReportManagement.Infrastructure.Config/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "ReportManagement.Application": "1.0.0",
+          "ReportManagement.Application.Contracts": "1.0.0",
+          "ReportManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportManagement.Infrastructure.Config.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportManagement.Infrastructure.Config.dll": {}
+        }
+      },
+      "ReportManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "ReportManagment.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "ReportManagment.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framwork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportManagment.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportManagment.Domain.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -10842,6 +10910,31 @@
       "path": "../InventoryManagement.Presentation.API/InventoryManagement.Presentation.API.csproj",
       "msbuildProject": "../InventoryManagement.Presentation.API/InventoryManagement.Presentation.API.csproj"
     },
+    "ReportManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../ReportManagement.Application/ReportManagement.Application.csproj",
+      "msbuildProject": "../ReportManagement.Application/ReportManagement.Application.csproj"
+    },
+    "ReportManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../ReportManagement.Application.Contracts/ReportManagement.Application.Contracts.csproj",
+      "msbuildProject": "../ReportManagement.Application.Contracts/ReportManagement.Application.Contracts.csproj"
+    },
+    "ReportManagement.Infrastructure.Config/1.0.0": {
+      "type": "project",
+      "path": "../ReportManagement.Infrastructure.Config/ReportManagement.Infrastructure.Config.csproj",
+      "msbuildProject": "../ReportManagement.Infrastructure.Config/ReportManagement.Infrastructure.Config.csproj"
+    },
+    "ReportManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../ReportManagement.Infrastructure.EFCore/ReportManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../ReportManagement.Infrastructure.EFCore/ReportManagement.Infrastructure.EFCore.csproj"
+    },
+    "ReportManagment.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ReportManagment.Domain/ReportManagment.Domain.csproj",
+      "msbuildProject": "../ReportManagment.Domain/ReportManagment.Domain.csproj"
+    },
     "ShopManagement.Application/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Application/ShopManagement.Application.csproj",
@@ -10882,6 +10975,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "Nancy >= 2.0.0",
+      "ReportManagement.Infrastructure.Config >= 1.0.0",
       "ShopManagement.Infrastructure.Config >= 1.0.0"
     ]
   },
@@ -10929,6 +11023,9 @@
             },
             "C:\\Users\\Alireza\\Desktop\\DigiOne\\InventoryManagement.Presentation.API\\InventoryManagement.Presentation.API.csproj": {
               "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\InventoryManagement.Presentation.API\\InventoryManagement.Presentation.API.csproj"
+            },
+            "C:\\Users\\Alireza\\Desktop\\DigiOne\\ReportManagement.Infrastructure.Config\\ReportManagement.Infrastructure.Config.csproj": {
+              "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ReportManagement.Infrastructure.Config\\ReportManagement.Infrastructure.Config.csproj"
             },
             "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.Config\\ShopManagement.Infrastructure.Config.csproj": {
               "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.Config\\ShopManagement.Infrastructure.Config.csproj"

@@ -8,7 +8,9 @@ namespace ShopManagement.Application.Contracts.Order
         string PaymentSucceeded(int orderId,long refId);
         void Cancel(int id);
         double GetAmountBy(int id);
-        List<OrderVIewModel> GerOrders();
-        List<OrderItemViewModel> GerOrderItems(int orderId);
+        List<OrderVIewModel> GetOrders();
+        List<OrderItemViewModel> GetOrderItems(int orderId);
+        string GetTotalSales();
+        int GetSalesNumber();
     }
 }

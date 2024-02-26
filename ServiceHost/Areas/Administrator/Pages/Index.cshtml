@@ -4,4 +4,113 @@
     ViewData["Title"] = "داشبورد";
 }
 
-<h2>سلام خوش امدید به پنل ادمین</h2>
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="header">
+                    <h2><strong><i class="zmdi zmdi-chart"></i> گزارش</strong></h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <ul class="row profile_state list-unstyled">
+                                <li class="col-lg-4 col-md-4 col-12">
+                                    <div class="body">
+                                        <i class="zmdi zmdi-eye col-amber"></i>
+                                        <h4>@Model.VisitViewModel.VisitToday</h4>
+                                        <span>بازدید امروز</span>
+                                    </div>
+                                </li>
+                                <li class="col-lg-4 col-md-4 col-12">
+                                    <div class="body">
+                                        <i class="zmdi zmdi-mail-reply col-blue"></i>
+                                        <h4>@Model.VisitViewModel.VisitYesterday</h4>
+                                        <span>بازدید دیروز</span>
+                                    </div>
+                                </li>
+                                <li class="col-lg-4 col-md-4 col-12">
+                                    <div class="body">
+                                        <i class="zmdi zmdi-equalizer text-success"></i>
+                                        <h4>@Model.VisitViewModel.VisitTotal</h4>
+                                        <span>بازدید کل</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="body d-flex align-items-center">
+                    <div class="col-7">
+                        <canvas id="BarChart"></canvas>
+                    </div>
+                    <div class="col-5">
+                        <ul class="row profile_state list-unstyled">
+                            <li class="col-lg-6 col-md-6 col-sm-12 col-6">
+                                <div class="body bg-amber m-3">
+                                    <i class="zmdi zmdi-money"></i>
+                                    <h4>@ViewData["totalRevenue"]</h4>
+                                    <span>درآمد کل (تومان)</span>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-12 col-6">
+                                <div class="body bg-blue m-3">
+                                    <i class="zmdi zmdi-shopping-cart"></i>
+                                    <h4>@ViewData["numberOfProducts"]</h4>
+                                    <span>تعداد محصولات</span>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-12 col-6">
+                                <div class="body bg-red m-3">
+                                    <i class="zmdi zmdi-accounts"></i>
+                                    <h4>@ViewData["numberOfUser"]</h4>
+                                    <span>تعداد کاربران</span>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-12 col-6">
+                                <div class="body bg-green m-3">
+                                    <i class="zmdi zmdi-check-circle"></i>
+                                    <h4>@ViewData["salesNumber"]</h4>
+                                    <span>تعداد فروش</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Script
+{
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        var BarChartLabels = @Html.Raw(Json.Serialize(Model.BarChartDataSet.Select(x => x.Label)));
+        var BarChartData = @Html.Raw(Json.Serialize(Model.BarChartDataSet.SelectMany(x => x.Data)));
+        var ctx = document.getElementById('BarChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: BarChartLabels,
+                datasets: [{
+                    label: 'درآمد 7 روز گذشته',
+                    data: BarChartData,
+                    backgroundColor: '#29ADFF',
+                    borderColor: '#29ADFF',
+                    borderWidth: 1,
+                    barPercentage: 0.8,
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+}

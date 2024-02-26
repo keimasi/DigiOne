@@ -74,5 +74,10 @@ namespace ShopManagement.Application
         {
             return _productRepository.GetProducts();
         }
+
+        public int GetNumberOfProducts()
+        {
+            return _productRepository.GetNumberOfProducts();
+        }
     }
 }

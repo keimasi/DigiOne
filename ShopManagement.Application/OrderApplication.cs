@@ -65,14 +65,24 @@ namespace ShopManagement.Application
             return _orderRepository.GetAmountBy(id);
         }
 
-        public List<OrderVIewModel> GerOrders()
+        public List<OrderVIewModel> GetOrders()
         {
-            return _orderRepository.GerOrders();
+            return _orderRepository.GetOrders();
         }
 
-        public List<OrderItemViewModel> GerOrderItems(int orderId)
+        public List<OrderItemViewModel> GetOrderItems(int orderId)
         {
-            return _orderRepository.GerOrderItems(orderId);
+            return _orderRepository.GetOrderItems(orderId);
+        }
+
+        public string GetTotalSales()
+        {
+            return _orderRepository.GetTotalSales();
+        }
+
+        public int GetSalesNumber()
+        {
+            return _orderRepository.GetSalesNumber();
         }
     }
 }

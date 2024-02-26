@@ -40,6 +40,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.17",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Nancy": "2.0.0",
+          "ReportManagement.Infrastructure.Config": "1.0.0",
           "ShopManagement.Infrastructure.Config": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
@@ -2686,6 +2687,64 @@
         },
         "compile": {
           "InventoryManagement.Presentation.API.dll": {}
+        }
+      },
+      "ReportManagement.Application/1.0.0": {
+        "dependencies": {
+          "ReportManagement.Application.Contracts": "1.0.0",
+          "ReportManagment.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ReportManagement.Application.dll": {}
+        },
+        "compile": {
+          "ReportManagement.Application.dll": {}
+        }
+      },
+      "ReportManagement.Application.Contracts/1.0.0": {
+        "runtime": {
+          "ReportManagement.Application.Contracts.dll": {}
+        },
+        "compile": {
+          "ReportManagement.Application.Contracts.dll": {}
+        }
+      },
+      "ReportManagement.Infrastructure.Config/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "ReportManagement.Application": "1.0.0",
+          "ReportManagement.Application.Contracts": "1.0.0",
+          "ReportManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "ReportManagement.Infrastructure.Config.dll": {}
+        },
+        "compile": {
+          "ReportManagement.Infrastructure.Config.dll": {}
+        }
+      },
+      "ReportManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "ReportManagment.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ReportManagement.Infrastructure.EFCore.dll": {}
+        },
+        "compile": {
+          "ReportManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "ReportManagment.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0"
+        },
+        "runtime": {
+          "ReportManagment.Domain.dll": {}
+        },
+        "compile": {
+          "ReportManagment.Domain.dll": {}
         }
       },
       "ShopManagement.Application/1.0.0": {
@@ -5888,6 +5947,31 @@
       "sha512": ""
     },
     "InventoryManagement.Presentation.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportManagement.Infrastructure.Config/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportManagment.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

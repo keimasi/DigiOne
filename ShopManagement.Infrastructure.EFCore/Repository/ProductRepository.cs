@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using _0_Framwork.Application;
 using _0_Framwork.Infrastructure;
@@ -58,6 +57,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         public ProductEntity GetProductWithCategoryBy(int id)
         {
             return _context.Products.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
+        }
+
+        public int GetNumberOfProducts()
+        {
+            return _context.Products.Count();
         }
     }
 }

@@ -12,5 +12,6 @@ namespace AccountManagement.Application.Contracts.Account
         void Logout();
         EditAccount GetDetails(int id);
         List<AccountViewModel> GetAccounts();
+        int GetUserOfNumber();
     }
 }

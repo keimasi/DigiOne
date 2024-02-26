@@ -62,7 +62,7 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 OperatorId = x.OperatorId,
-                OrderId = 0,
+                OrderId = x.OrderId,
                 OperationType = x.OperationType,
                 OperationDate = x.OperationDate.ToFarsi(),
                 CurrentCount = x.CurrentCount,
@@ -72,7 +72,7 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
 
             foreach (var item in operation)
             {
-                item.OperatorName = account.FirstOrDefault(x => x.Id == item.OperatorId).FullName;
+                item.OperatorName = account.FirstOrDefault(x => x.Id == item.OperatorId)?.FullName;
             }
 
             return operation;
