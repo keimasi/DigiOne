@@ -1,0 +1,16 @@
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\bin\Debug\net5.0\ReportManagment.Domain.deps.json
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\bin\Debug\net5.0\ReportManagment.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\bin\Debug\net5.0\ReportManagment.Domain.pdb
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\bin\Debug\net5.0\0_Framwork.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\bin\Debug\net5.0\0_Framwork.pdb
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.csproj.AssemblyReference.cache
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.AssemblyInfo.cs
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.sourcelink.json
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.csproj.CopyComplete
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\refint\ReportManagment.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.pdb
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ref\ReportManagment.Domain.dll

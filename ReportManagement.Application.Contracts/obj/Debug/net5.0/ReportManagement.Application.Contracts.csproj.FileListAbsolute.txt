@@ -1,0 +1,12 @@
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\bin\Debug\net5.0\ReportManagement.Application.Contracts.deps.json
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\bin\Debug\net5.0\ReportManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\bin\Debug\net5.0\ReportManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ReportManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ReportManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ReportManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ReportManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ReportManagement.Application.Contracts.sourcelink.json
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ReportManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\refint\ReportManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ReportManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application.Contracts\obj\Debug\net5.0\ref\ReportManagement.Application.Contracts.dll

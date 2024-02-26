@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReportManagement.Application.Contracts\ReportManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\ReportManagment.Domain\ReportManagment.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
