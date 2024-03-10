@@ -9,6 +9,7 @@ namespace AccountManagement.Application.Contracts.Account
         OperationResult Edit(EditAccount command);
         OperationResult ChangePassword(ChangePassword command);
         OperationResult Login(Login command);
+        OperationResult ForgotPassword(ForgotPassword command);
         void Logout();
         EditAccount GetDetails(int id);
         List<AccountViewModel> GetAccounts();

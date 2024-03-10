@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Security.Cryptography;
+using System.Text;
 using _0_Framwork.Application;
 using Microsoft.Extensions.Options;
 
@@ -8,7 +9,7 @@ namespace _0_Framework.Application
 {
     public class PasswordHasher : IPasswordHasher
     {
-        private const int SaltSize = 16; // 128 bit 
+        private const int SaltSize = 16; // 128 bit
         private const int KeySize = 32; // 256 bit
 
         public PasswordHasher(IOptions<HashingOptions> options)
@@ -46,8 +47,25 @@ namespace _0_Framework.Application
             var keyToCheck = algorithm.GetBytes(KeySize);
 
             var verified = keyToCheck.SequenceEqual(key);
-
             return (verified, needsUpgrade);
+        }
+
+        public (string PasswordCreated, string PasswordHashed) GeneratePassword()
+        {
+            const string Characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            Random random = new Random();
+
+            StringBuilder password = new StringBuilder();
+
+            for (int i = 0; i < 8; i++)
+            {
+                char randomChar = Characters[random.Next(Characters.Length)];
+                password.Append(randomChar);
+            }
+
+            var passwordHashed = Hash(password.ToString());
+
+            return (password.ToString(),passwordHashed);
         }
     }
 }

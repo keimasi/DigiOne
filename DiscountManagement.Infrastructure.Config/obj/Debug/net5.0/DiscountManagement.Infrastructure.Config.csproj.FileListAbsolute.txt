@@ -2,6 +2,9 @@ C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\De
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\0_Framwork.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Domain.dll
@@ -13,6 +16,9 @@ C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\De
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Application.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\0_Framwork.pdb
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Domain.pdb
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\ShopManagement.Domain.pdb
@@ -28,9 +34,3 @@ C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\De
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\refint\DiscountManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\DiscountManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.Config.dll
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Domain.dll
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Domain.pdb
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb

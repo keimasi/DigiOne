@@ -13,7 +13,7 @@
 
                 @if (!string.IsNullOrEmpty(Model.Message))
                 {
-                    <div class="alert alert-danger">@Model.Message</div>
+                    <div class="alert alert-warning">@Model.Message</div>
                 }
 
                 <form method="post">
@@ -34,7 +34,7 @@
 
 
                         <div class="col-12">
-                            <a class="faramooshi">رمز عبور را فراموش کرده اید؟</a>
+                            <a class="faramooshi" asp-page="/ForgotPassword">رمز عبور را فراموش کرده اید؟</a>
                         </div>
                         <div class="col-12 text--center">
                             <button type="submit" class="btn big_btn btn-main-masai">ورود</button>

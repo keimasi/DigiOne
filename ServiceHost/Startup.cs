@@ -11,6 +11,7 @@ using ShopManagement.Infrastructure.Config;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
+using _0_Framwork.Application.Sms;
 using _0_Framwork.Application.ZarinPal;
 using AccountManagement.Infrastructure.Config;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -46,6 +47,7 @@ namespace ServiceHost
             services.AddTransient<IFileUpload, FileUpload>();
             services.AddTransient<IAuthenticationHelper, AuthenticationHelper>();
             services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
+            services.AddTransient<ISmsService, SmsService>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {

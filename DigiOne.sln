@@ -95,15 +95,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RM.Application", "RM.Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RM.Infrastructure", "RM.Infrastructure", "{E4E75F14-9F6A-4D27-BA62-5974FECF250B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportManagment.Domain", "ReportManagment.Domain\ReportManagment.Domain.csproj", "{E4B7B91D-28FF-4654-B90C-71CC61E4B2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportManagment.Domain", "ReportManagment.Domain\ReportManagment.Domain.csproj", "{E4B7B91D-28FF-4654-B90C-71CC61E4B2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportManagement.Infrastructure.EFCore", "ReportManagement.Infrastructure.EFCore\ReportManagement.Infrastructure.EFCore.csproj", "{455A18D9-11F5-404F-9B2A-FD55CCAB2C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportManagement.Infrastructure.EFCore", "ReportManagement.Infrastructure.EFCore\ReportManagement.Infrastructure.EFCore.csproj", "{455A18D9-11F5-404F-9B2A-FD55CCAB2C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportManagement.Application.Contracts", "ReportManagement.Application.Contracts\ReportManagement.Application.Contracts.csproj", "{3F846AD9-E955-42F0-9D59-5E5FD71F92A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportManagement.Application.Contracts", "ReportManagement.Application.Contracts\ReportManagement.Application.Contracts.csproj", "{3F846AD9-E955-42F0-9D59-5E5FD71F92A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportManagement.Application", "ReportManagement.Application\ReportManagement.Application.csproj", "{D0FC0685-1A1A-4074-83F5-2E5BA05444A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportManagement.Application", "ReportManagement.Application\ReportManagement.Application.csproj", "{D0FC0685-1A1A-4074-83F5-2E5BA05444A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportManagement.Infrastructure.Config", "ReportManagement.Infrastructure.Config\ReportManagement.Infrastructure.Config.csproj", "{D1D7A53C-792C-4587-8ACE-DE0A79F05A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportManagement.Infrastructure.Config", "ReportManagement.Infrastructure.Config\ReportManagement.Infrastructure.Config.csproj", "{D1D7A53C-792C-4587-8ACE-DE0A79F05A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

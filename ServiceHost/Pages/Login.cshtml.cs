@@ -16,8 +16,9 @@ namespace ServiceHost.Pages
             _accountApplication = accountApplication;
         }
 
-        public void OnGet()
+        public void OnGet(string forgotPassMessage)
         {
+            Message = forgotPassMessage;
         }
 
         public IActionResult OnPost(Login command, string returnUrl)

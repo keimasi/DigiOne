@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using _0_Framework.Application;
 using _0_Framwork.Application;
+using _0_Framwork.Application.Sms;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.Account;
 using AccountManagement.Domain.Role;
@@ -14,13 +16,15 @@ namespace AccountManagement.Application
         private readonly IAccountRepository _accountRepository;
         private readonly IAuthenticationHelper _authenticationHelper;
         private readonly IRoleRepository _roleRepository;
+        private readonly ISmsService _smsService;
 
-        public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IAuthenticationHelper authenticationHelper, IRoleRepository roleRepository)
+        public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IAuthenticationHelper authenticationHelper, IRoleRepository roleRepository, ISmsService smsService)
         {
             _accountRepository = accountRepository;
             _passwordHasher = passwordHasher;
             _authenticationHelper = authenticationHelper;
             _roleRepository = roleRepository;
+            _smsService = smsService;
         }
 
         public OperationResult Create(CreateAccount command)
@@ -88,10 +92,27 @@ namespace AccountManagement.Application
 
             var permissions = _roleRepository.Get(account.RoleId).Permissions.Select(x => x.Code).ToList();
 
-            var authViewModel = new AuthenticationViewModel(account.Id, account.RoleId, account.FullName, account.UserName,permissions);
+            var authViewModel = new AuthenticationViewModel(account.Id, account.RoleId, account.FullName, account.UserName, permissions);
             _authenticationHelper.Signin(authViewModel);
 
             return operation.Success();
+        }
+
+        public OperationResult ForgotPassword(ForgotPassword command)
+        {
+            var operation = new OperationResult();
+            var user = _accountRepository.GetBy(command.UserName);
+
+            if (user != null)
+            {
+                var newPassword = _passwordHasher.GeneratePassword();
+                user.ChangePassword(newPassword.PasswordHashed);
+                _smsService.Send(user.Mobile, $"{user.FullName} عزیز پسورد جدید شما {newPassword.PasswordCreated} است . میتوانید در پنل کاربری آن را تغییر دهید.");
+                _accountRepository.Save();
+                return operation.Success($"پسورد جدید برای شما به شماره {user.Mobile} پیامک شد.");
+            }
+
+            return operation.Failed("کاربری با این مشخصات یافت نشد");
         }
 
         public void Logout()
