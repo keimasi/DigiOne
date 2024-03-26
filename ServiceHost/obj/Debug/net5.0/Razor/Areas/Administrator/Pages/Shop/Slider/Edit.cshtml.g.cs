@@ -19,8 +19,8 @@ using ServiceHost;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"e187e71b52a9fa427ab59833d6719d6ce790c6aafcedae0358e2be5218a0ccbb", @"/Areas/Administrator/Pages/Shop/Slider/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"e187e71b52a9fa427ab59833d6719d6ce790c6aafcedae0358e2be5218a0ccbb", @"/Areas/Administrator/Pages/Shop/Slider/Edit.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administrator_Pages_Shop_Slider_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ShopManagement.Application.Contracts.Slider.EditSlider>
     #nullable disable

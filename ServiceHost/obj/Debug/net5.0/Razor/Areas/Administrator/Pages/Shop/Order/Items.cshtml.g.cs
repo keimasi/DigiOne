@@ -19,8 +19,8 @@ using ServiceHost;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"86fad6b8aaadc83b6f034f9226765aaecbee7db81eab716add459852ca4796d8", @"/Areas/Administrator/Pages/Shop/Order/Items.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"86fad6b8aaadc83b6f034f9226765aaecbee7db81eab716add459852ca4796d8", @"/Areas/Administrator/Pages/Shop/Order/Items.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administrator_Pages_Shop_Order_Items : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ShopManagement.Application.Contracts.Order.OrderItemViewModel>>
     #nullable disable

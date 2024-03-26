@@ -267,9 +267,10 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\staticwebassets\ms
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\staticwebassets\msbuild.build.ServiceHost.props
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.ServiceHost.props
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.ServiceHost.props
-C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.dll
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\refint\ServiceHost.dll
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceH.EB565EEF.Up2Date
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\BestSellingProducts\Default.cshtml.g.cs

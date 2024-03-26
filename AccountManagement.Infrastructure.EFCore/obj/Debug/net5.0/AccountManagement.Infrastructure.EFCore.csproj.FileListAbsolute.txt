@@ -15,9 +15,9 @@ C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Deb
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\refint\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountM.EDA7EA5C.Up2Date

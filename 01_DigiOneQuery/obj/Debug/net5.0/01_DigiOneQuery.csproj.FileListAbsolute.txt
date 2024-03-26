@@ -33,8 +33,8 @@ C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuer
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuery.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuery.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuery.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuery.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuery.dll
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\refint\01_DigiOneQuery.dll
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiOneQuery.pdb
 C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\ref\01_DigiOneQuery.dll
+C:\Users\Alireza\Desktop\DigiOne\01_DigiOneQuery\obj\Debug\net5.0\01_DigiO.01C642F4.Up2Date

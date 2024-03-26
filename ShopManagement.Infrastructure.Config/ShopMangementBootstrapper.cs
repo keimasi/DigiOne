@@ -53,6 +53,7 @@ namespace ShopManagement.Infrastructure.Config
             services.AddTransient<ISliderQuery, SliderQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
             services.AddTransient<IProductQuery, ProductQuery>();
+            services.AddTransient<IOrderQuery, OrderQuery>();
 
             services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
 

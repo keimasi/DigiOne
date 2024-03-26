@@ -19,8 +19,8 @@ using ServiceHost;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"c8cf9c6be6bfaa4ae812ac6b13d66c41f9e8249cbfbecf149a52162210a1470c", @"/Areas/Administrator/Pages/Account/User/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"c8cf9c6be6bfaa4ae812ac6b13d66c41f9e8249cbfbecf149a52162210a1470c", @"/Areas/Administrator/Pages/Account/User/Edit.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administrator_Pages_Account_User_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AccountManagement.Application.Contracts.Account.EditAccount>
     #nullable disable

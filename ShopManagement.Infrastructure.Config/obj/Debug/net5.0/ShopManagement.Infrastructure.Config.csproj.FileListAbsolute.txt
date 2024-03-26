@@ -41,8 +41,8 @@ C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopManagement.Infrastructure.Config.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopManagement.Infrastructure.Config.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopManagement.Infrastructure.Config.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopManagement.Infrastructure.Config.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\refint\ShopManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Infrastructure.Config\obj\Debug\net5.0\ShopMana.1204A939.Up2Date

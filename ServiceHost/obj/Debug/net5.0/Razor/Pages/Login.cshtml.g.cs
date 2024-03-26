@@ -19,8 +19,8 @@ using ServiceHost;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"75ba365be10cbdd7d8c75dd5e0ff0ca85684a7cbf41f01b5a72dade4986bdfd4", @"/Pages/Login.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"75ba365be10cbdd7d8c75dd5e0ff0ca85684a7cbf41f01b5a72dade4986bdfd4", @"/Pages/Login.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Pages_Login : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     #nullable disable

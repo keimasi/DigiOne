@@ -26,8 +26,8 @@ using _0_Framwork.Application;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"604c624f455888bd9fb2d51db55dbd2ae5810ba057ee511e1093fee9bf6ad432", @"/Pages/Shared/Components/Menu/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"604c624f455888bd9fb2d51db55dbd2ae5810ba057ee511e1093fee9bf6ad432", @"/Pages/Shared/Components/Menu/Default.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Pages_Shared_Components_Menu_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<_01_DigiOneQuery.Contracts.ProductCategory.ProductCategoryQueryModel>>
     #nullable disable

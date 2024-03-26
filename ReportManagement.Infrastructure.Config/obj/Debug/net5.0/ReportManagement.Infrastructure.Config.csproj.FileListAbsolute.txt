@@ -17,8 +17,8 @@ C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debu
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ReportManagement.Infrastructure.Config.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ReportManagement.Infrastructure.Config.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ReportManagement.Infrastructure.Config.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ReportManagement.Infrastructure.Config.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ReportManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\refint\ReportManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ReportManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ref\ReportManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.Config\obj\Debug\net5.0\ReportMa.0AA0451A.Up2Date

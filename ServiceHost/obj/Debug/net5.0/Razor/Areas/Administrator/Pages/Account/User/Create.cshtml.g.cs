@@ -19,8 +19,8 @@ using ServiceHost;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"8fa0d15575e0fb64fd393fc3bea95d957ef5d70947f60e8c287dcc02b15c3e19", @"/Areas/Administrator/Pages/Account/User/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"8fa0d15575e0fb64fd393fc3bea95d957ef5d70947f60e8c287dcc02b15c3e19", @"/Areas/Administrator/Pages/Account/User/Create.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administrator_Pages_Account_User_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AccountManagement.Application.Contracts.Account.CreateAccount>
     #nullable disable

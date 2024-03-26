@@ -37,8 +37,8 @@ C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\D
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\InventoryManagement.Infrastructure.Config.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\InventoryManagement.Infrastructure.Config.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\InventoryManagement.Infrastructure.Config.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\InventoryManagement.Infrastructure.Config.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\InventoryManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\refint\InventoryManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\InventoryManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Infrastructure.Config\obj\Debug\net5.0\Inventor.C47B74C9.Up2Date

@@ -26,8 +26,8 @@ using _0_Framwork.Application;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"085d60ec47b8800e3051d1e2e1a3fe0f53fea4bb6c5eb9f162200fbc61e6aa82", @"/Pages/Cart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"085d60ec47b8800e3051d1e2e1a3fe0f53fea4bb6c5eb9f162200fbc61e6aa82", @"/Pages/Cart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Pages_Cart : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     #nullable disable

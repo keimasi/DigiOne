@@ -19,8 +19,8 @@ using ServiceHost;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"b6ed5aeca1b541e69815dff2892a37d5d62b5c66f3b0c8e848965ac038fb7640", @"/Areas/Administrator/Pages/Discounts/CustomerDiscount/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"b6ed5aeca1b541e69815dff2892a37d5d62b5c66f3b0c8e848965ac038fb7640", @"/Areas/Administrator/Pages/Discounts/CustomerDiscount/Edit.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ef804ad9e924e319b3b0d3ae212d751f94fb6cc05c0e23938bb7b6d2b449281c", @"/Areas/Administrator/Pages/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Administrator_Pages_Discounts_CustomerDiscount_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DiscountManagement.Application.Contracts.CustomerDiscount.EditCustomerDiscount>
     #nullable disable

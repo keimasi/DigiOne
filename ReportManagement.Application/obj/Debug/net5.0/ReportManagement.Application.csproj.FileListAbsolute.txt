@@ -13,8 +13,8 @@ C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\R
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ReportManagement.Application.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ReportManagement.Application.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ReportManagement.Application.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ReportManagement.Application.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ReportManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\refint\ReportManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ReportManagement.Application.pdb
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ref\ReportManagement.Application.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Application\obj\Debug\net5.0\ReportMa.57380B07.Up2Date

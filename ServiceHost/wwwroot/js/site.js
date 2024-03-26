@@ -16,7 +16,7 @@ SinglePage.LoadModal = function () {
             $.validator.unobtrusive.parse(newForm);
             showModal();
         }).fail(function (error) {
-            alert("خطایی رخ داده، لطفا با مدیر سیستم تماس بگیرید.");
+            alert("خطایی رخ داده است.");
         });
 };
 

@@ -27,9 +27,9 @@ C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\De
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\refint\DiscountManagement.Infrastructure.EFCore.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\Discount.3D85B343.Up2Date

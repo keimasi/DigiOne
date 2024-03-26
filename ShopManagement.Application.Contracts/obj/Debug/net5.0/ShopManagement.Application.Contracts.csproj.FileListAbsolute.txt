@@ -9,8 +9,8 @@ C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\refint\ShopManagement.Application.Contracts.dll
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopMana.6F35FA60.Up2Date

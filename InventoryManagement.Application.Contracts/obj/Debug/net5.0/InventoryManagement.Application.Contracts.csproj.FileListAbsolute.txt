@@ -11,8 +11,8 @@ C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\D
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.dll
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\refint\InventoryManagement.Application.Contracts.dll
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\ref\InventoryManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application.Contracts\obj\Debug\net5.0\Inventor.6A146F2C.Up2Date

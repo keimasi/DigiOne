@@ -29,8 +29,8 @@ C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\De
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\DiscountManagement.Infrastructure.Config.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\DiscountManagement.Infrastructure.Config.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\DiscountManagement.Infrastructure.Config.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\DiscountManagement.Infrastructure.Config.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\DiscountManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\refint\DiscountManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\DiscountManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\obj\Debug\net5.0\Discount.8F97BDF9.Up2Date

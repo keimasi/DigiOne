@@ -29,8 +29,8 @@ C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Deb
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\AccountManagement.Infrastructure.Config.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\AccountManagement.Infrastructure.Config.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\AccountManagement.Infrastructure.Config.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\AccountManagement.Infrastructure.Config.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\AccountManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\refint\AccountManagement.Infrastructure.Config.dll
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\AccountManagement.Infrastructure.Config.pdb
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\ref\AccountManagement.Infrastructure.Config.dll
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Infrastructure.Config\obj\Debug\net5.0\AccountM.11974629.Up2Date

@@ -11,8 +11,8 @@ C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\De
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\refint\DiscountManagement.Application.Contracts.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\ref\DiscountManagement.Application.Contracts.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Application.Contracts\obj\Debug\net5.0\Discount.929289B0.Up2Date

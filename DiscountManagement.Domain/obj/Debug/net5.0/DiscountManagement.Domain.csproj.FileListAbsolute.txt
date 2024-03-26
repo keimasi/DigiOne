@@ -13,8 +13,8 @@ C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\Disc
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\refint\DiscountManagement.Domain.dll
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.pdb
 C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\ref\DiscountManagement.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Domain\obj\Debug\net5.0\Discount.4808E127.Up2Date

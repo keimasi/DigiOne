@@ -15,8 +15,8 @@ C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\refint\InventoryManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
 C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
+C:\Users\Alireza\Desktop\DigiOne\InventoryManagement.Application\obj\Debug\net5.0\Inventor.0D5EB3FB.Up2Date

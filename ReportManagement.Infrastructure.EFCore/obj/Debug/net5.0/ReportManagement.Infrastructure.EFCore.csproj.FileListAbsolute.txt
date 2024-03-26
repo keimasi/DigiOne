@@ -13,9 +13,9 @@ C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debu
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportManagement.Infrastructure.EFCore.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportManagement.Infrastructure.EFCore.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportManagement.Infrastructure.EFCore.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportManagement.Infrastructure.EFCore.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\refint\ReportManagement.Infrastructure.EFCore.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportManagement.Infrastructure.EFCore.pdb
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\ReportManagement.Infrastructure.EFCore.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagement.Infrastructure.EFCore\obj\Debug\net5.0\ReportMa.5B5012FC.Up2Date

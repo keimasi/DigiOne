@@ -9,8 +9,8 @@ C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportM
 C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\refint\ReportManagment.Domain.dll
 C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportManagment.Domain.pdb
 C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ref\ReportManagment.Domain.dll
+C:\Users\Alireza\Desktop\DigiOne\ReportManagment.Domain\obj\Debug\net5.0\ReportMa.10CC0D6F.Up2Date

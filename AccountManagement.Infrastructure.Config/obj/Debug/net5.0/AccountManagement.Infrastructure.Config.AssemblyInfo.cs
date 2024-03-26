@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccountManagement.Infrastructure.Config")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e50219d0b7dd330313d17ed958cb884c5a9365fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccountManagement.Infrastructure.Config")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccountManagement.Infrastructure.Config")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

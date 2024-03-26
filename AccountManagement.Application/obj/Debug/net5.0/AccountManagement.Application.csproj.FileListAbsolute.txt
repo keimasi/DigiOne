@@ -13,8 +13,8 @@ C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.AssemblyInfo.cs
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.CoreCompileInputs.cache
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.sourcelink.json
-C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csproj.CopyComplete
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\refint\AccountManagement.Application.dll
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.pdb
 C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\ref\AccountManagement.Application.dll
+C:\Users\Alireza\Desktop\DigiOne\AccountManagement.Application\obj\Debug\net5.0\AccountM.0E8E6A30.Up2Date
