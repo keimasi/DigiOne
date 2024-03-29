@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DiscountManagement.Infrastructure.Config
-build_property.ProjectDir = C:\Users\Alireza\Desktop\DigiOne\DiscountManagement.Infrastructure.Config\
+build_property.ProjectDir = D:\Project\Web Project\Website\Asp.Net Core\DigiOne\DiscountManagement.Infrastructure.Config\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

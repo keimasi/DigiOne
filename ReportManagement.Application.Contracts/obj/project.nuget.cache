@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5o12rAa1eyGFcBuPoyKP+FNUrbQ6rWgZoHaHr6ka55zfkIdP4xwUXoMWwMTshh1fEw+UqOpvDIif8Rlkap8WcQ==",
+  "dgSpecHash": "foc4Tdqco3GnGtV0D8qcLOIrsCvLOHVogcIHafyJO75e7oUFwYPtSkKG4hGsrSZDjSf6YqOK3nfl3aLzypAk7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ReportManagement.Application.Contracts\\ReportManagement.Application.Contracts.csproj",
+  "projectFilePath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ReportManagement.Application.Contracts\\ReportManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

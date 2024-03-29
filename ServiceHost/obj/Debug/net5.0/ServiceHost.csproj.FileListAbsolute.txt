@@ -274,3 +274,4 @@ C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceHost.genrun
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\ServiceH.EB565EEF.Up2Date
 C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\BestSellingProducts\Default.cshtml.g.cs
+C:\Users\Alireza\Desktop\DigiOne\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\AmazingProducts\Default.cshtml.g.cs

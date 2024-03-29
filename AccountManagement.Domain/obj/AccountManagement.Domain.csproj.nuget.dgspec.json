@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {}
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj",
         "projectName": "0_Framwork",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,25 +90,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
         "projectName": "AccountManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,15 +112,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -164,25 +154,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
         "projectName": "AccountManagement.Domain",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,18 +176,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -236,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

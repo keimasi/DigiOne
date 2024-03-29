@@ -11214,24 +11214,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alireza\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Saraye tel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ServiceHost\\ServiceHost.csproj",
-      "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ServiceHost\\obj\\",
+      "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ServiceHost\\ServiceHost.csproj",
+      "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11239,30 +11234,29 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.Config\\AccountManagement.Infrastructure.Config.csproj": {
-              "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.Config\\AccountManagement.Infrastructure.Config.csproj"
+            "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.Config\\AccountManagement.Infrastructure.Config.csproj": {
+              "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.Config\\AccountManagement.Infrastructure.Config.csproj"
             },
-            "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj": {
-              "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj"
+            "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj": {
+              "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj"
             },
-            "C:\\Users\\Alireza\\Desktop\\DigiOne\\InventoryManagement.Infrastructure.Config\\InventoryManagement.Infrastructure.Config.csproj": {
-              "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\InventoryManagement.Infrastructure.Config\\InventoryManagement.Infrastructure.Config.csproj"
+            "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\InventoryManagement.Infrastructure.Config\\InventoryManagement.Infrastructure.Config.csproj": {
+              "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\InventoryManagement.Infrastructure.Config\\InventoryManagement.Infrastructure.Config.csproj"
             },
-            "C:\\Users\\Alireza\\Desktop\\DigiOne\\InventoryManagement.Presentation.API\\InventoryManagement.Presentation.API.csproj": {
-              "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\InventoryManagement.Presentation.API\\InventoryManagement.Presentation.API.csproj"
+            "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\InventoryManagement.Presentation.API\\InventoryManagement.Presentation.API.csproj": {
+              "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\InventoryManagement.Presentation.API\\InventoryManagement.Presentation.API.csproj"
             },
-            "C:\\Users\\Alireza\\Desktop\\DigiOne\\ReportManagement.Infrastructure.Config\\ReportManagement.Infrastructure.Config.csproj": {
-              "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ReportManagement.Infrastructure.Config\\ReportManagement.Infrastructure.Config.csproj"
+            "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ReportManagement.Infrastructure.Config\\ReportManagement.Infrastructure.Config.csproj": {
+              "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ReportManagement.Infrastructure.Config\\ReportManagement.Infrastructure.Config.csproj"
             },
-            "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.Config\\ShopManagement.Infrastructure.Config.csproj": {
-              "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.Config\\ShopManagement.Infrastructure.Config.csproj"
+            "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.Config\\ShopManagement.Infrastructure.Config.csproj": {
+              "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.Config\\ShopManagement.Infrastructure.Config.csproj"
             }
           }
         }
@@ -11315,7 +11309,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,42 @@
+﻿@model List<_01_DigiOneQuery.Contracts.Product.ProductQueryModel>
+@{
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="widget widget-product card border_all bglight pad_time_prod" id="shegeft_1">
+            <header class="card-header">
+                <h3 class="card-title">
+                    <span>
+                        <img src="~/Theme/assets/img/shegeft_1.png" />
+                    </span>
+                </h3>
+            </header>
+            <div class="product-carousel owl-carousel owl-theme">
+                @foreach (var item in Model)
+                {
+                    <div class="item">
+                        <a asp-page="/Product" asp-route-id="@item.Slug" target="_blank">
+                            <img src="/Upload/@item.Picture" class="img-fluid" alt="@item.PictureAlt" title="@item.PictureTitle">
+                        </a>
+                        <h2 class="product_title">
+                            @item.Name
+                        </h2>
+                        <div class="price">
+                            @if (item.HasDiscount)
+                            {
+                                <del><span>@item.Price<span> تومان </span></span></del>
+                                <span class="discount_badge">@item.DiscountRate%</span>
+                                <ins><span>@item.PriceAfterDiscount<span> تومان </span></span></ins>
+                            }
+                            else
+                            {
+                                <ins><span>@item.Price<span> تومان </span></span></ins>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

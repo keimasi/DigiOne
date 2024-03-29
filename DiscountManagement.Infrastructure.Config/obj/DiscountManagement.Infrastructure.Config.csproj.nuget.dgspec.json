@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj": {}
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj",
         "projectName": "0_Framwork",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,25 +90,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
         "projectName": "AccountManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -121,15 +112,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -164,25 +154,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
         "projectName": "AccountManagement.Domain",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,18 +176,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -236,25 +221,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
         "projectName": "AccountManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.EFCore\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,15 +243,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
               }
             }
           }
@@ -327,25 +307,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
         "projectName": "DiscountManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -353,18 +329,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -399,25 +374,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
         "projectName": "DiscountManagement.Application",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -425,18 +396,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               }
             }
           }
@@ -471,25 +441,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "projectName": "DiscountManagement.Domain",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -497,18 +463,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -543,25 +508,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj",
         "projectName": "DiscountManagement.Infrastructure.Config",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.Config\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.Config\\DiscountManagement.Infrastructure.Config.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.Config\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -569,21 +530,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -624,25 +584,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "projectName": "DiscountManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -650,18 +606,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -718,25 +673,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -744,15 +695,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -793,25 +743,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Domain\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -819,18 +765,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\0_Framwork\\0_Framwork.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\0_Framwork\\0_Framwork.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -865,25 +810,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+    "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Infrastructure.EFCore\\obj\\",
+        "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Saraye tel\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Saraye tel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -891,18 +832,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
               },
-              "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Alireza\\Desktop\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Project\\Web Project\\Website\\Asp.Net Core\\DigiOne\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -957,7 +897,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

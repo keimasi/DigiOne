@@ -8,5 +8,6 @@ namespace _01_DigiOneQuery.Contracts.Product
         List<ProductQueryModel> Search(string value);
         ProductQueryModel GetProduct(string slug);
         List<CartItem> CheckInventoryStatus(List<CartItem> cartItems);
+        List<ProductQueryModel> GetAmazingProducts();
     }
 }
